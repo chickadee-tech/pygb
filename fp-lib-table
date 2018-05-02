@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name gameboy)(type KiCad)(uri /Users/tannewt/repos/pcbs/kicad-libs/footprints/gameboy.pretty)(options "")(descr ""))
+  (lib (name fci)(type KiCad)(uri /Users/tannewt/repos/pcbs/kicad-libs/footprints/fci.pretty)(options "")(descr ""))
+  (lib (name chickadee)(type KiCad)(uri /Users/tannewt/repos/pcbs/kicad-libs/footprints/chickadee.pretty)(options "")(descr ""))
+)
