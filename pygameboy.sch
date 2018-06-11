@@ -496,7 +496,6 @@ Text Label 8175 1200 0    50   ~ 0
 SWCLK
 Text Label 8175 1300 0    50   ~ 0
 SWDIO
-NoConn ~ 8175 1400
 NoConn ~ 8175 1500
 Text Label 8175 1000 0    50   ~ 0
 SAMD_RESET
@@ -1142,11 +1141,7 @@ Text Label 6750 5175 3    50   ~ 0
 3V_A15
 Text Label 5400 4325 2    50   ~ 0
 3V_CLK
-Text Label 5400 4425 2    50   ~ 0
-3V_WR
 Text Label 5400 4525 2    50   ~ 0
-3V_RD
-Text Label 5650 5175 3    50   ~ 0
 3V_RD
 Text Label 5750 5175 3    50   ~ 0
 3V_WR
@@ -1310,10 +1305,10 @@ Connection ~ 4075 6925
 Wire Wire Line
 	4075 6925 4150 6925
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR0104
 U 1 1 5AE9E7EB
 P 3925 6625
-F 0 "#PWR?" H 3925 6475 50  0001 C CNN
+F 0 "#PWR0104" H 3925 6475 50  0001 C CNN
 F 1 "+BATT" H 3940 6798 50  0000 C CNN
 F 2 "" H 3925 6625 50  0001 C CNN
 F 3 "" H 3925 6625 50  0001 C CNN
@@ -1321,14 +1316,636 @@ F 3 "" H 3925 6625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR0150
 U 1 1 5AE9E83D
 P 1575 2175
-F 0 "#PWR?" H 1575 2025 50  0001 C CNN
+F 0 "#PWR0150" H 1575 2025 50  0001 C CNN
 F 1 "+BATT" H 1590 2348 50  0000 C CNN
 F 2 "" H 1575 2175 50  0001 C CNN
 F 3 "" H 1575 2175 50  0001 C CNN
 	1    1575 2175
 	1    0    0    -1  
+$EndComp
+$Comp
+L device:C_Small C15
+U 1 1 5B051533
+P 6950 2025
+F 0 "C15" V 7125 2025 50  0000 C CNN
+F 1 "1uF" V 7050 2025 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6950 2025 50  0001 C CNN
+F 3 "" H 6950 2025 50  0001 C CNN
+	1    6950 2025
+	0    1    1    0   
+$EndComp
+Connection ~ 6850 2025
+$Comp
+L device:C_Small C14
+U 1 1 5B0516E8
+P 6950 1850
+F 0 "C14" V 6750 1850 50  0000 C CNN
+F 1 "10uF" V 6825 1850 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6950 1850 50  0001 C CNN
+F 3 "" H 6950 1850 50  0001 C CNN
+	1    6950 1850
+	0    1    1    0   
+$EndComp
+Connection ~ 6850 1850
+$Comp
+L power:GND #PWR0151
+U 1 1 5B05190F
+P 7050 1850
+F 0 "#PWR0151" H 7050 1600 50  0001 C CNN
+F 1 "GND" H 7055 1677 50  0000 C CNN
+F 2 "" H 7050 1850 50  0001 C CNN
+F 3 "" H 7050 1850 50  0001 C CNN
+	1    7050 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0152
+U 1 1 5B0519A2
+P 7050 2025
+F 0 "#PWR0152" H 7050 1775 50  0001 C CNN
+F 1 "GND" H 7055 1852 50  0000 C CNN
+F 2 "" H 7050 2025 50  0001 C CNN
+F 3 "" H 7050 2025 50  0001 C CNN
+	1    7050 2025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0153
+U 1 1 5B051B45
+P 2425 4600
+F 0 "#PWR0153" H 2425 4350 50  0001 C CNN
+F 1 "GND" H 2430 4427 50  0000 C CNN
+F 2 "" H 2425 4600 50  0001 C CNN
+F 3 "" H 2425 4600 50  0001 C CNN
+	1    2425 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0154
+U 1 1 5B051BB6
+P 2425 4700
+F 0 "#PWR0154" H 2425 4550 50  0001 C CNN
+F 1 "+3.3V" H 2440 4873 50  0000 C CNN
+F 2 "" H 2425 4700 50  0001 C CNN
+F 3 "" H 2425 4700 50  0001 C CNN
+	1    2425 4700
+	0    -1   -1   0   
+$EndComp
+Text Label 5400 4425 2    50   ~ 0
+3V_A15
+Text Label 5650 5175 3    50   ~ 0
+3V_A15
+Text Label 7150 5175 3    50   ~ 0
+3V_CLK
+Text Label 6150 2525 1    50   ~ 0
+SWO
+Text Label 8175 1400 0    50   ~ 0
+SWO
+$Comp
+L Connector:Test_Point TP1
+U 1 1 5B1DC0E8
+P 1575 2175
+F 0 "TP1" V 1529 2363 50  0000 L CNN
+F 1 "Test_Point" V 1620 2363 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 2175 50  0001 C CNN
+F 3 "~" H 1775 2175 50  0001 C CNN
+	1    1575 2175
+	0    1    1    0   
+$EndComp
+Connection ~ 1575 2175
+$Comp
+L Connector:Test_Point TP2
+U 1 1 5B1DC182
+P 1575 2275
+F 0 "TP2" V 1529 2463 50  0000 L CNN
+F 1 "Test_Point" V 1620 2463 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 2275 50  0001 C CNN
+F 3 "~" H 1775 2275 50  0001 C CNN
+	1    1575 2275
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP3
+U 1 1 5B1DC1DA
+P 1575 2375
+F 0 "TP3" V 1529 2563 50  0000 L CNN
+F 1 "Test_Point" V 1620 2563 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 2375 50  0001 C CNN
+F 3 "~" H 1775 2375 50  0001 C CNN
+	1    1575 2375
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP4
+U 1 1 5B1DC236
+P 1575 2475
+F 0 "TP4" V 1529 2663 50  0000 L CNN
+F 1 "Test_Point" V 1620 2663 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 2475 50  0001 C CNN
+F 3 "~" H 1775 2475 50  0001 C CNN
+	1    1575 2475
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP5
+U 1 1 5B1DC292
+P 1575 2575
+F 0 "TP5" V 1529 2763 50  0000 L CNN
+F 1 "Test_Point" V 1620 2763 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 2575 50  0001 C CNN
+F 3 "~" H 1775 2575 50  0001 C CNN
+	1    1575 2575
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP6
+U 1 1 5B1DC2F2
+P 1575 2675
+F 0 "TP6" V 1529 2863 50  0000 L CNN
+F 1 "Test_Point" V 1620 2863 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 2675 50  0001 C CNN
+F 3 "~" H 1775 2675 50  0001 C CNN
+	1    1575 2675
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP7
+U 1 1 5B1DC352
+P 1575 2775
+F 0 "TP7" V 1529 2963 50  0000 L CNN
+F 1 "Test_Point" V 1620 2963 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 2775 50  0001 C CNN
+F 3 "~" H 1775 2775 50  0001 C CNN
+	1    1575 2775
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP8
+U 1 1 5B1DC3B4
+P 1575 2875
+F 0 "TP8" V 1529 3063 50  0000 L CNN
+F 1 "Test_Point" V 1620 3063 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 2875 50  0001 C CNN
+F 3 "~" H 1775 2875 50  0001 C CNN
+	1    1575 2875
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP9
+U 1 1 5B1DC418
+P 1575 2975
+F 0 "TP9" V 1529 3163 50  0000 L CNN
+F 1 "Test_Point" V 1620 3163 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 2975 50  0001 C CNN
+F 3 "~" H 1775 2975 50  0001 C CNN
+	1    1575 2975
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP10
+U 1 1 5B1DC47E
+P 1575 3075
+F 0 "TP10" V 1529 3263 50  0000 L CNN
+F 1 "Test_Point" V 1620 3263 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 3075 50  0001 C CNN
+F 3 "~" H 1775 3075 50  0001 C CNN
+	1    1575 3075
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP11
+U 1 1 5B1DC4E6
+P 1575 3175
+F 0 "TP11" V 1529 3363 50  0000 L CNN
+F 1 "Test_Point" V 1620 3363 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 3175 50  0001 C CNN
+F 3 "~" H 1775 3175 50  0001 C CNN
+	1    1575 3175
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP12
+U 1 1 5B1DC550
+P 1575 3275
+F 0 "TP12" V 1529 3463 50  0000 L CNN
+F 1 "Test_Point" V 1620 3463 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 3275 50  0001 C CNN
+F 3 "~" H 1775 3275 50  0001 C CNN
+	1    1575 3275
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP13
+U 1 1 5B1DC5C0
+P 1575 3375
+F 0 "TP13" V 1529 3563 50  0000 L CNN
+F 1 "Test_Point" V 1620 3563 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 3375 50  0001 C CNN
+F 3 "~" H 1775 3375 50  0001 C CNN
+	1    1575 3375
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP14
+U 1 1 5B1DC630
+P 1575 3475
+F 0 "TP14" V 1529 3663 50  0000 L CNN
+F 1 "Test_Point" V 1620 3663 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 3475 50  0001 C CNN
+F 3 "~" H 1775 3475 50  0001 C CNN
+	1    1575 3475
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP15
+U 1 1 5B1DC6A2
+P 1575 3575
+F 0 "TP15" V 1529 3763 50  0000 L CNN
+F 1 "Test_Point" V 1620 3763 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 3575 50  0001 C CNN
+F 3 "~" H 1775 3575 50  0001 C CNN
+	1    1575 3575
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP16
+U 1 1 5B1DC714
+P 1575 3675
+F 0 "TP16" V 1529 3863 50  0000 L CNN
+F 1 "Test_Point" V 1620 3863 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 3675 50  0001 C CNN
+F 3 "~" H 1775 3675 50  0001 C CNN
+	1    1575 3675
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP17
+U 1 1 5B1DC78A
+P 1575 3775
+F 0 "TP17" V 1529 3963 50  0000 L CNN
+F 1 "Test_Point" V 1620 3963 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 3775 50  0001 C CNN
+F 3 "~" H 1775 3775 50  0001 C CNN
+	1    1575 3775
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP18
+U 1 1 5B1DC802
+P 1575 3875
+F 0 "TP18" V 1529 4063 50  0000 L CNN
+F 1 "Test_Point" V 1620 4063 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 3875 50  0001 C CNN
+F 3 "~" H 1775 3875 50  0001 C CNN
+	1    1575 3875
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP19
+U 1 1 5B1DC87E
+P 1575 3975
+F 0 "TP19" V 1529 4163 50  0000 L CNN
+F 1 "Test_Point" V 1620 4163 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 3975 50  0001 C CNN
+F 3 "~" H 1775 3975 50  0001 C CNN
+	1    1575 3975
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP20
+U 1 1 5B1DC8FA
+P 1575 4075
+F 0 "TP20" V 1529 4263 50  0000 L CNN
+F 1 "Test_Point" V 1620 4263 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 4075 50  0001 C CNN
+F 3 "~" H 1775 4075 50  0001 C CNN
+	1    1575 4075
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP21
+U 1 1 5B1DC9AC
+P 1575 4175
+F 0 "TP21" V 1529 4363 50  0000 L CNN
+F 1 "Test_Point" V 1620 4363 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 4175 50  0001 C CNN
+F 3 "~" H 1775 4175 50  0001 C CNN
+	1    1575 4175
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP22
+U 1 1 5B1DCA32
+P 1575 4275
+F 0 "TP22" V 1529 4463 50  0000 L CNN
+F 1 "Test_Point" V 1620 4463 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 4275 50  0001 C CNN
+F 3 "~" H 1775 4275 50  0001 C CNN
+	1    1575 4275
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP23
+U 1 1 5B1DCAB2
+P 1575 4375
+F 0 "TP23" V 1529 4563 50  0000 L CNN
+F 1 "Test_Point" V 1620 4563 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 4375 50  0001 C CNN
+F 3 "~" H 1775 4375 50  0001 C CNN
+	1    1575 4375
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP24
+U 1 1 5B1DCB34
+P 1575 4475
+F 0 "TP24" V 1529 4663 50  0000 L CNN
+F 1 "Test_Point" V 1620 4663 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 4475 50  0001 C CNN
+F 3 "~" H 1775 4475 50  0001 C CNN
+	1    1575 4475
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP25
+U 1 1 5B1DCBB9
+P 1575 4575
+F 0 "TP25" V 1529 4763 50  0000 L CNN
+F 1 "Test_Point" V 1620 4763 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 4575 50  0001 C CNN
+F 3 "~" H 1775 4575 50  0001 C CNN
+	1    1575 4575
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP26
+U 1 1 5B1DCC42
+P 1575 4675
+F 0 "TP26" V 1529 4863 50  0000 L CNN
+F 1 "Test_Point" V 1620 4863 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 4675 50  0001 C CNN
+F 3 "~" H 1775 4675 50  0001 C CNN
+	1    1575 4675
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP27
+U 1 1 5B1DCCCA
+P 1575 4775
+F 0 "TP27" V 1529 4963 50  0000 L CNN
+F 1 "Test_Point" V 1620 4963 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 4775 50  0001 C CNN
+F 3 "~" H 1775 4775 50  0001 C CNN
+	1    1575 4775
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP28
+U 1 1 5B1DCD54
+P 1575 4875
+F 0 "TP28" V 1529 5063 50  0000 L CNN
+F 1 "Test_Point" V 1620 5063 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 4875 50  0001 C CNN
+F 3 "~" H 1775 4875 50  0001 C CNN
+	1    1575 4875
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP29
+U 1 1 5B1DCDE0
+P 1575 4975
+F 0 "TP29" V 1529 5163 50  0000 L CNN
+F 1 "Test_Point" V 1620 5163 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 4975 50  0001 C CNN
+F 3 "~" H 1775 4975 50  0001 C CNN
+	1    1575 4975
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP30
+U 1 1 5B1DCE6E
+P 1575 5075
+F 0 "TP30" V 1529 5263 50  0000 L CNN
+F 1 "Test_Point" V 1620 5263 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 5075 50  0001 C CNN
+F 3 "~" H 1775 5075 50  0001 C CNN
+	1    1575 5075
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP32
+U 1 1 5B1DCF00
+P 1575 5275
+F 0 "TP32" V 1529 5463 50  0000 L CNN
+F 1 "Test_Point" V 1620 5463 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 5275 50  0001 C CNN
+F 3 "~" H 1775 5275 50  0001 C CNN
+	1    1575 5275
+	0    1    1    0   
+$EndComp
+Connection ~ 1575 5275
+$Comp
+L Connector:Test_Point TP31
+U 1 1 5B1DCF97
+P 1575 5175
+F 0 "TP31" V 1529 5363 50  0000 L CNN
+F 1 "Test_Point" V 1620 5363 50  0000 L CNN
+F 2 "gameboy:Test Point" H 1775 5175 50  0001 C CNN
+F 3 "~" H 1775 5175 50  0001 C CNN
+	1    1575 5175
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP35
+U 1 1 5B1DD475
+P 5300 6000
+F 0 "TP35" H 5242 6027 50  0000 R CNN
+F 1 "GB_RESET" H 5242 6118 50  0000 R CNN
+F 2 "keystone:5015-SMT-TestPoint" H 5500 6000 50  0001 C CNN
+F 3 "~" H 5500 6000 50  0001 C CNN
+	1    5300 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Test_Point TP34
+U 1 1 5B1DD595
+P 4500 5025
+F 0 "TP34" V 4700 5325 50  0000 C CNN
+F 1 "DATA_OE" V 4600 5250 50  0000 C CNN
+F 2 "keystone:5015-SMT-TestPoint" H 4700 5025 50  0001 C CNN
+F 3 "~" H 4700 5025 50  0001 C CNN
+	1    4500 5025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Test_Point TP33
+U 1 1 5B1DD6B0
+P 2975 5325
+F 0 "TP33" H 3033 5445 50  0000 L CNN
+F 1 "Test_Point" H 3033 5354 50  0000 L CNN
+F 2 "keystone:5015-SMT-TestPoint" H 3175 5325 50  0001 C CNN
+F 3 "~" H 3175 5325 50  0001 C CNN
+	1    2975 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Test_Point TP36
+U 1 1 5B1DD9C3
+P 8975 1325
+F 0 "TP36" V 8929 1513 50  0000 L CNN
+F 1 "SAMD_RESET" V 9020 1513 50  0000 L CNN
+F 2 "keystone:5015-SMT-TestPoint" H 9175 1325 50  0001 C CNN
+F 3 "~" H 9175 1325 50  0001 C CNN
+	1    8975 1325
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP37
+U 1 1 5B1E24C2
+P 5625 6975
+F 0 "TP37" V 5579 7163 50  0000 L CNN
+F 1 "gnd" V 5670 7163 50  0000 L CNN
+F 2 "keystone:5015-SMT-TestPoint" H 5825 6975 50  0001 C CNN
+F 3 "~" H 5825 6975 50  0001 C CNN
+	1    5625 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Test_Point TP38
+U 1 1 5B1E2963
+P 5800 6975
+F 0 "TP38" V 5754 7163 50  0000 L CNN
+F 1 "3.3v" V 5845 7163 50  0000 L CNN
+F 2 "keystone:5015-SMT-TestPoint" H 6000 6975 50  0001 C CNN
+F 3 "~" H 6000 6975 50  0001 C CNN
+	1    5800 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Test_Point TP39
+U 1 1 5B1E2A10
+P 6000 6975
+F 0 "TP39" V 5954 7163 50  0000 L CNN
+F 1 "batt" V 6045 7163 50  0000 L CNN
+F 2 "keystone:5015-SMT-TestPoint" H 6200 6975 50  0001 C CNN
+F 3 "~" H 6200 6975 50  0001 C CNN
+	1    6000 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0155
+U 1 1 5B1E2AB7
+P 5625 6975
+F 0 "#PWR0155" H 5625 6725 50  0001 C CNN
+F 1 "GND" H 5630 6802 50  0000 C CNN
+F 2 "" H 5625 6975 50  0001 C CNN
+F 3 "" H 5625 6975 50  0001 C CNN
+	1    5625 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0156
+U 1 1 5B1E2B54
+P 5800 6975
+F 0 "#PWR0156" H 5800 6825 50  0001 C CNN
+F 1 "+3.3V" H 5800 7250 50  0000 C CNN
+F 2 "" H 5800 6975 50  0001 C CNN
+F 3 "" H 5800 6975 50  0001 C CNN
+	1    5800 6975
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Test_Point TP40
+U 1 1 5B1E4350
+P 4925 5025
+F 0 "TP40" V 4879 5213 50  0000 L CNN
+F 1 "clk" V 4970 5213 50  0000 L CNN
+F 2 "keystone:5015-SMT-TestPoint" H 5125 5025 50  0001 C CNN
+F 3 "~" H 5125 5025 50  0001 C CNN
+	1    4925 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Test_Point TP41
+U 1 1 5B1E441C
+P 5100 5025
+F 0 "TP41" V 5054 5213 50  0000 L CNN
+F 1 "rd" V 5145 5213 50  0000 L CNN
+F 2 "keystone:5015-SMT-TestPoint" H 5300 5025 50  0001 C CNN
+F 3 "~" H 5300 5025 50  0001 C CNN
+	1    5100 5025
+	1    0    0    -1  
+$EndComp
+Text Label 4925 5025 3    50   ~ 0
+3V_CLK
+Text Label 5100 5025 3    50   ~ 0
+3V_RD
+Text Label 5250 5025 3    50   ~ 0
+3V_WR
+$Comp
+L Connector:Test_Point TP42
+U 1 1 5B1E49ED
+P 5250 5025
+F 0 "TP42" V 5204 5213 50  0000 L CNN
+F 1 "wr" V 5295 5213 50  0000 L CNN
+F 2 "keystone:5015-SMT-TestPoint" H 5450 5025 50  0001 C CNN
+F 3 "~" H 5450 5025 50  0001 C CNN
+	1    5250 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Test_Point TP43
+U 1 1 5B1E4A9B
+P 5400 5025
+F 0 "TP43" V 5354 5213 50  0000 L CNN
+F 1 "a15" V 5445 5213 50  0000 L CNN
+F 2 "keystone:5015-SMT-TestPoint" H 5600 5025 50  0001 C CNN
+F 3 "~" H 5600 5025 50  0001 C CNN
+	1    5400 5025
+	1    0    0    -1  
+$EndComp
+Text Label 5400 5025 3    50   ~ 0
+3V_A15
+$Comp
+L Connector:Test_Point TP45
+U 1 1 5B1E502D
+P 8075 3925
+F 0 "TP45" V 8029 4113 50  0000 L CNN
+F 1 "cs" V 8120 4113 50  0000 L CNN
+F 2 "keystone:5015-SMT-TestPoint" H 8275 3925 50  0001 C CNN
+F 3 "~" H 8275 3925 50  0001 C CNN
+	1    8075 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Test_Point TP44
+U 1 1 5B1E5237
+P 7875 3825
+F 0 "TP44" V 7829 4013 50  0000 L CNN
+F 1 "PB17" V 7920 4013 50  0000 L CNN
+F 2 "keystone:5015-SMT-TestPoint" H 8075 3825 50  0001 C CNN
+F 3 "~" H 8075 3825 50  0001 C CNN
+	1    7875 3825
+	1    0    0    -1  
+$EndComp
+Text Label 8075 3925 0    50   ~ 0
+3V_CS
+Wire Wire Line
+	7400 3925 7875 3925
+Wire Wire Line
+	7875 3925 7875 3825
+$Comp
+L power:+5V #PWR?
+U 1 1 5B1E7689
+P 6000 6975
+F 0 "#PWR?" H 6000 6825 50  0001 C CNN
+F 1 "+5V" H 6015 7148 50  0000 C CNN
+F 2 "" H 6000 6975 50  0001 C CNN
+F 3 "" H 6000 6975 50  0001 C CNN
+	1    6000 6975
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
