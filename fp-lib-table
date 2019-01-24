@@ -3,4 +3,6 @@
   (lib (name fci)(type KiCad)(uri /Users/tannewt/repos/pcbs/kicad-libs/footprints/fci.pretty)(options "")(descr ""))
   (lib (name chickadee)(type KiCad)(uri /Users/tannewt/repos/pcbs/kicad-libs/footprints/chickadee.pretty)(options "")(descr ""))
   (lib (name keystone)(type KiCad)(uri /Users/tannewt/repos/pcbs/kicad-libs/footprints/keystone.pretty)(options "")(descr ""))
+  (lib (name SJ-3523-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/libs/SJ-3523-SMT-TR.mod)(options "")(descr "")(disabled))
+  (lib (name cui-audio)(type KiCad)(uri /Users/tannewt/repos/pcbs/kicad-libs/footprints/cui-audio.pretty)(options "")(descr ""))
 )

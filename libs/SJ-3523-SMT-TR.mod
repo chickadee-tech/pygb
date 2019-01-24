@@ -1,0 +1,54 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+CUI_SJ-3523-SMT-TR
+$EndINDEX
+$MODULE CUI_SJ-3523-SMT-TR
+Po 0 0 0 15 00000000 00000000 ~~
+Li CUI_SJ-3523-SMT-TR
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -3.46549 -6.14473 1.00158 1.00158 0 0.05 N V 21 "CUI_SJ-3523-SMT-TR"
+T1 -2.8264 6.36815 1.0005 1.0005 0 0.05 N V 21 "VAL**"
+$PAD
+Sh "1" R 2.4 2.55 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -4.6 3.675
+$EndPAD
+$PAD
+Sh "2" R 2.9 2.55 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 4.7 3.675
+$EndPAD
+$PAD
+Sh "3" R 2.4 2.55 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.7 -3.675
+$EndPAD
+$PAD
+Sh "Hole" C 1.6 1.6 0 0 0
+Dr 1.6 0 0
+At HOLE N 00E0FFFF
+Po -3.5 0
+$EndPAD
+$PAD
+Sh "Hole" C 1.6 1.6 0 0 0
+Dr 1.6 0 0
+At HOLE N 00E0FFFF
+Po 3.5 0
+$EndPAD
+$EndMODULE CUI_SJ-3523-SMT-TR
