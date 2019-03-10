@@ -3,4 +3,5 @@
   (lib (name gamegear)(type Legacy)(uri /Users/tannewt/repos/pcbs/kicad-libs/components/gamegear.lib)(options "")(descr ""))
   (lib (name gameboy)(type Legacy)(uri /Users/tannewt/repos/pcbs/kicad-libs/components/gameboy.lib)(options "")(descr ""))
   (lib (name SJ-3523-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/libs/SJ-3523-SMT-TR.lib)(options "")(descr ""))
+  (lib (name atmel-sam)(type Legacy)(uri /Users/tannewt/repos/pcbs/kicad-libs/components/atmel-sam.lib)(options "")(descr ""))
 )

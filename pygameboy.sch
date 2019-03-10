@@ -15,36 +15,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pygameboy-rescue:SAMD51J-atmel-sam U2
+L atmel-sam:SAMD51J U2
 U 1 1 5AD3C3C3
 P 6400 3875
 F 0 "U2" H 6350 4000 60  0000 L CNN
 F 1 "SAMD51J" H 6250 3850 60  0000 L CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 6400 3875 60  0001 C CNN
+F 2 "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm_ThermalVias" H 6400 3875 60  0001 C CNN
 F 3 "" H 6400 3875 60  0001 C CNN
 	1    6400 3875
-	1    0    0    -1  
-$EndComp
-$Comp
-L pygameboy-rescue:74LS244-Logic_74xx U3
-U 1 1 5AD44766
-P 2925 4200
-F 0 "U3" H 2925 4450 50  0000 C CNN
-F 1 "74LS244" H 2925 3900 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 2925 4200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 2925 4200 50  0001 C CNN
-	1    2925 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L pygameboy-rescue:74LS244-Logic_74xx U4
-U 1 1 5AD447DE
-P 4425 3050
-F 0 "U4" H 4425 3250 50  0000 C CNN
-F 1 "74LS244" H 4425 2725 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4425 3050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 4425 3050 50  0001 C CNN
-	1    4425 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -193,17 +171,6 @@ F 3 "" H 1375 2825 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:74LS244-Logic_74xx U6
-U 1 1 5AE766D2
-P 3075 1700
-F 0 "U6" H 3075 1950 50  0000 C CNN
-F 1 "74LS244" H 3075 1400 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 3075 1700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 3075 1700 50  0001 C CNN
-	1    3075 1700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 5AE766D8
 P 3075 2500
@@ -311,21 +278,21 @@ Text Label 2575 1800 2    50   ~ 0
 A2
 Text Label 2575 1900 2    50   ~ 0
 A3
-Text Label 3925 2550 2    50   ~ 0
-A4
-Text Label 3925 2650 2    50   ~ 0
-A5
-Text Label 3925 2750 2    50   ~ 0
-A6
 Text Label 3925 2850 2    50   ~ 0
+A4
+Text Label 3925 2750 2    50   ~ 0
+A5
+Text Label 3925 2650 2    50   ~ 0
+A6
+Text Label 3925 2550 2    50   ~ 0
 A7
-Text Label 3925 2950 2    50   ~ 0
-A8
-Text Label 3925 3050 2    50   ~ 0
-A9
-Text Label 3925 3150 2    50   ~ 0
-A10
 Text Label 3925 3250 2    50   ~ 0
+A8
+Text Label 3925 3150 2    50   ~ 0
+A9
+Text Label 3925 3050 2    50   ~ 0
+A10
+Text Label 3925 2950 2    50   ~ 0
 A11
 Text Label 2425 3700 2    50   ~ 0
 A12
@@ -397,7 +364,6 @@ Wire Wire Line
 	2575 2100 2575 2200
 Wire Wire Line
 	2575 2200 2425 2200
-Connection ~ 2575 2200
 Wire Wire Line
 	3925 3450 3925 3550
 Wire Wire Line
@@ -1091,21 +1057,21 @@ Text Label 5750 2525 1    50   ~ 0
 3V_A2
 Text Label 5650 2525 1    50   ~ 0
 3V_A3
-Text Label 4925 2550 0    50   ~ 0
-3V_A4
-Text Label 4925 2650 0    50   ~ 0
-3V_A5
-Text Label 4925 2750 0    50   ~ 0
-3V_A6
 Text Label 4925 2850 0    50   ~ 0
+3V_A4
+Text Label 4925 2750 0    50   ~ 0
+3V_A5
+Text Label 4925 2650 0    50   ~ 0
+3V_A6
+Text Label 4925 2550 0    50   ~ 0
 3V_A7
-Text Label 4925 2950 0    50   ~ 0
-3V_A8
-Text Label 4925 3050 0    50   ~ 0
-3V_A9
-Text Label 4925 3150 0    50   ~ 0
-3V_A10
 Text Label 4925 3250 0    50   ~ 0
+3V_A8
+Text Label 4925 3150 0    50   ~ 0
+3V_A9
+Text Label 4925 3050 0    50   ~ 0
+3V_A10
+Text Label 4925 2950 0    50   ~ 0
 3V_A11
 Text Label 3425 3700 0    50   ~ 0
 3V_A12
@@ -1235,7 +1201,7 @@ U 1 1 5AE9BB74
 P 8400 2200
 F 0 "D3" V 8438 2083 50  0000 R CNN
 F 1 "LED" V 8347 2083 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8400 2200 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8400 2200 50  0001 C CNN
 F 3 "~" H 8400 2200 50  0001 C CNN
 	1    8400 2200
 	0    -1   -1   0   
@@ -1344,7 +1310,7 @@ U 1 1 5B0516E8
 P 6950 1850
 F 0 "C14" V 6750 1850 50  0000 C CNN
 F 1 "10uF" V 6825 1850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6950 1850 50  0001 C CNN
 F 3 "" H 6950 1850 50  0001 C CNN
 	1    6950 1850
 	0    1    1    0   
@@ -2010,7 +1976,7 @@ F 3 "" H 10700 3575 50  0001 C CNN
 	1    10700 3575
 	1    0    0    -1  
 $EndComp
-Text Label 10575 3875 0    50   ~ 0
+Text Label 10800 3875 0    50   ~ 0
 MIDI_IN
 $Comp
 L Diode:1N4148W D4
@@ -2180,7 +2146,7 @@ Wire Wire Line
 Connection ~ 10700 3575
 Wire Wire Line
 	10700 3575 10275 3575
-Text Label 5400 3125 1    50   ~ 0
+Text Label 5400 3125 2    50   ~ 0
 MIDI_IN
 Text Notes 6050 2175 1    50   ~ 0
 SERCOM5 PAD 0
@@ -2219,4 +2185,67 @@ NoConn ~ 9425 3775
 NoConn ~ 9425 3975
 NoConn ~ 9350 4550
 NoConn ~ 9350 4750
+$Comp
+L 74xx:74HC244 U4
+U 1 1 5C86A82C
+P 4425 3050
+F 0 "U4" H 4425 4028 50  0000 C CNN
+F 1 "74LVC244" H 4425 3937 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4425 3050 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf" H 4425 3050 50  0001 C CNN
+	1    4425 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC244 U6
+U 1 1 5C845FB0
+P 3075 1700
+F 0 "U6" H 3075 2678 50  0000 C CNN
+F 1 "74LVC244" H 3075 2587 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 3075 1700 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf" H 3075 1700 50  0001 C CNN
+	1    3075 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 2575 2200
+$Comp
+L 74xx:74HC244 U3
+U 1 1 5C84622A
+P 2925 4200
+F 0 "U3" H 2925 5178 50  0000 C CNN
+F 1 "74LVC244" H 2925 5087 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 2925 4200 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf" H 2925 4200 50  0001 C CNN
+	1    2925 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0165
+U 1 1 5C849BE4
+P 5400 3025
+F 0 "#PWR0165" H 5400 2775 50  0001 C CNN
+F 1 "GND" H 5405 2852 50  0000 C CNN
+F 2 "" H 5400 3025 50  0001 C CNN
+F 3 "" H 5400 3025 50  0001 C CNN
+	1    5400 3025
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5C84EA32
+P 10700 3675
+F 0 "R8" H 10759 3721 50  0000 L CNN
+F 1 "470" H 10759 3630 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 3675 50  0001 C CNN
+F 3 "~" H 10700 3675 50  0001 C CNN
+	1    10700 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10575 3875 10700 3875
+Wire Wire Line
+	10700 3775 10700 3875
+Connection ~ 10700 3875
+Wire Wire Line
+	10700 3875 10800 3875
 $EndSCHEMATC
