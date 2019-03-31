@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:pygameboy-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -425,7 +425,7 @@ Text Label 7400 4325 0    50   ~ 0
 Text Label 7400 4425 0    50   ~ 0
 3V_D0
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J3
+L pygameboy-rescue:Conn_ARM_JTAG_SWD_10-Connector J3
 U 1 1 5AE826AA
 P 7675 1300
 F 0 "J3" H 7235 1346 50  0000 R CNN
@@ -2133,7 +2133,7 @@ U 1 1 5C846D19
 P 10275 3875
 F 0 "U8" H 10525 3700 50  0000 L CNN
 F 1 "H11L1" H 10525 3775 50  0000 L CNN
-F 2 "Package_DIP:SMDIP-6_W7.62mm" H 10185 3875 50  0001 C CNN
+F 2 "Package_DIP:SMDIP-6_W9.53mm" H 10185 3875 50  0001 C CNN
 F 3 "https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf" H 10185 3875 50  0001 C CNN
 	1    10275 3875
 	1    0    0    -1  
@@ -2795,10 +2795,10 @@ F 3 "~" H 10800 1725 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0169
 U 1 1 5C87942F
 P 10600 1725
-F 0 "#PWR?" H 10600 1475 50  0001 C CNN
+F 0 "#PWR0169" H 10600 1475 50  0001 C CNN
 F 1 "GND" H 10605 1552 50  0000 C CNN
 F 2 "" H 10600 1725 50  0001 C CNN
 F 3 "" H 10600 1725 50  0001 C CNN
