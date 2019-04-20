@@ -1,0 +1,1 @@
+$ curl -sSL https://enterprise.coveralls.io/install.sh | sudo bash
