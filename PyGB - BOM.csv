@@ -1,0 +1,24 @@
+part name,symbol,size (imp),units per build,Manufacturer ID,source url,datasheet2
+SMD Test Point (Optional),"TP33, TP34, TP35, TP36, TP37, TP38, TP39, TP40, TP41, TP42, TP43, TP44, TP45, TP46, TP47",,15,5015,36-5015CT-ND,
+samd51 qfn,U2,,1,ATSAMD51J20A-MU,,
+Octal Buffer,"U3, U4, U6",tssop20,3,SN74LVC244APWR,http://www.digikey.com/product-detail/en/SN74LVC244APWR/296-1230-1-ND/276498,http://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf
+logic level shift,U5,,1,"74LVC4245APW,118",1727-4308-1-ND,
+3.3V regulator,U7,SOT-23-5,1,AP2112K-3.3TRG1,https://www.digikey.com/product-detail/en/diodes-incorporated/AP2112K-3.3TRG1/AP2112K-3.3TRG1DICT-ND/4505257,
+C 0.1uF,"C1, C2, C3, C4, C5, C6, C7, C8, C9, C11, C12",603,11,C0603C104K4RACTU,http://www.digikey.com/product-detail/en/C0603C104K4RACTU/399-1096-1-ND/411371,http://www.kemet.com/docfinder?Partnumber=C0603C104K4RACTU
+C 1uF X7R,"C10, C13, C15, C16, C17",603,5,TMK107B7105KA-T,http://www.digikey.com/product-detail/en/TMK107B7105KA-T/587-2984-1-ND/2714177,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=TMK107B7105KA-T&fileName=TMK107B7105KA-T_SS&mode=specSheetDownload
+C 10uF 0805,C14,805,1,CL21A106KOQNNNG,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOQNNNG/1276-6455-1-ND/5958083,
+MBR120,"D1, D2",SOD-123,2,MBR120VLSFT1G,http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=229440100&uq=636318567856433884,
+red led 0805,D3,805,1,598-8120-107F,https://www.digikey.com/product-detail/en/dialight/5988120107F/350-2039-1-ND/1291343,
+Shrouded SWD SMD,J3,,1,3221-10-0300-00,https://www.digikey.com/product-detail/en/cnc-tech/3221-10-0300-00/1175-1735-ND/4878946,http://cnctech.us/pdfs/3221-XX-0300-00.pdf
+Adafruit Micro USB,J4,,1,P4023,,
+n-channel mosfet,Q1,"TO-236-3, SC-59, SOT-23-3",1,BSS138,http://www.digikey.com/product-detail/en/BSS138/BSS138CT-ND/244294,https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+R 10k,"R1, R2, R3",603,3,RC0603FR-0710KL,http://www.digikey.com/product-detail/en/RC0603FR-0710KL/311-10.0KHRCT-ND/729827,http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf
+R 1.5k,R4,603,1,ERJ-3EKF1501V,http://www.digikey.com/product-detail/en/ERJ-3EKF1501V/P1.50KHCT-ND/198088,http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ3EKF1501V+7+WW
+keyboard diode,D4,,1,1N4148W-TP,,
+"1/8"" smd with springs","J5, J6",,2,35RASMT4BHNTRX,,
+optoisolator,U8,,1,H11L1S,,
+R 22,"R6, R7",603,2,RC0603FR-0722RL,http://www.digikey.com/product-detail/en/RC0603FR-0722RL/311-22.0HRCT-ND/730002,
+R 220,R5,603,1,RC0603JR-07220RL,http://www.digikey.com/product-detail/en/yageo/RC0603JR-07220RL/311-220GRCT-ND/729688,http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf
+R 470,R8,603,1,RC0603JR-07470RL,http://www.digikey.com/product-detail/en/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738,http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf
+Top press mini button,J1,KMR 2,1,KMR231NG LFS,https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=229439324&uq=636319193996346748,
+,,,1,,,
