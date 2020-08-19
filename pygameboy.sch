@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:pygameboy-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -369,7 +368,7 @@ Wire Wire Line
 	3925 3550 3800 3550
 Connection ~ 3925 3550
 $Comp
-L pygameboy-rescue:Conn_01x01-Connector J1
+L Connector_Generic:Conn_01x01 J1
 U 1 1 5AE81B2E
 P 6375 750
 F 0 "J1" H 6455 792 50  0000 L CNN
@@ -380,7 +379,7 @@ F 3 "~" H 6375 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:Conn_01x01-Connector J2
+L Connector_Generic:Conn_01x01 J2
 U 1 1 5AE81BAD
 P 6375 1025
 F 0 "J2" H 6455 1067 50  0000 L CNN
@@ -425,7 +424,7 @@ Text Label 7400 4325 0    50   ~ 0
 Text Label 7400 4425 0    50   ~ 0
 3V_D0
 $Comp
-L pygameboy-rescue:Conn_ARM_JTAG_SWD_10-Connector J3
+L Connector:Conn_ARM_JTAG_SWD_10 J3
 U 1 1 5AE826AA
 P 7675 1300
 F 0 "J3" H 7235 1346 50  0000 R CNN
@@ -469,7 +468,7 @@ SAMD_RESET
 Text Label 8975 1425 2    50   ~ 0
 SAMD_RESET
 $Comp
-L pygameboy-rescue:R_Small-device R1
+L Device:R_Small R1
 U 1 1 5AE82C1D
 P 8975 1225
 F 0 "R1" H 9034 1271 50  0000 L CNN
@@ -491,7 +490,7 @@ F 3 "" H 8975 1125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:C_Small-device C1
+L Device:C_Small C1
 U 1 1 5AE82D7B
 P 6550 2250
 F 0 "C1" V 6775 2250 50  0000 C CNN
@@ -502,7 +501,7 @@ F 3 "" H 6550 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:C_Small-device C2
+L Device:C_Small C2
 U 1 1 5AE82DCB
 P 6750 1850
 F 0 "C2" V 6521 1850 50  0000 C CNN
@@ -514,11 +513,6 @@ F 3 "" H 6750 1850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6450 2250 6450 2525
-Wire Wire Line
-	6650 2525 6650 2250
-Wire Wire Line
-	6650 1850 6650 2250
-Connection ~ 6650 2250
 Wire Wire Line
 	6850 1850 6850 2025
 Wire Wire Line
@@ -536,7 +530,6 @@ F 3 "" H 6650 1850 50  0001 C CNN
 	1    6650 1850
 	0    1    1    0   
 $EndComp
-Connection ~ 6650 1850
 $Comp
 L power:+3.3V #PWR0119
 U 1 1 5AE83AF5
@@ -548,9 +541,8 @@ F 3 "" H 6450 2250 50  0001 C CNN
 	1    6450 2250
 	1    0    0    -1  
 $EndComp
-Connection ~ 6450 2250
 $Comp
-L pygameboy-rescue:C_Small-device C6
+L Device:C_Small C6
 U 1 1 5AE83C5B
 P 7775 3100
 F 0 "C6" H 7683 3054 50  0000 R CNN
@@ -561,7 +553,7 @@ F 3 "" H 7775 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L pygameboy-rescue:C_Small-device C5
+L Device:C_Small C5
 U 1 1 5AE83CB4
 P 7725 4625
 F 0 "C5" H 7633 4579 50  0000 R CNN
@@ -572,7 +564,7 @@ F 3 "" H 7725 4625 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L pygameboy-rescue:C_Small-device C4
+L Device:C_Small C4
 U 1 1 5AE83D03
 P 6100 5500
 F 0 "C4" V 5871 5500 50  0000 C CNN
@@ -583,7 +575,7 @@ F 3 "" H 6100 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:C_Small-device C3
+L Device:C_Small C3
 U 1 1 5AE83DB0
 P 5075 3775
 F 0 "C3" H 5167 3821 50  0000 L CNN
@@ -687,44 +679,36 @@ Wire Wire Line
 	7525 3000 7775 3000
 Wire Wire Line
 	7525 3000 7525 3125
-Connection ~ 7775 3000
 Wire Wire Line
 	7775 3200 7400 3200
 Wire Wire Line
 	7400 3200 7400 3225
-Connection ~ 7775 3200
 Wire Wire Line
 	7725 4525 7400 4525
-Connection ~ 7725 4525
 Wire Wire Line
 	7400 4625 7400 4725
 Wire Wire Line
 	7400 4725 7725 4725
-Connection ~ 7725 4725
 Wire Wire Line
 	6000 5500 6000 5175
 Wire Wire Line
 	6000 5175 6050 5175
-Connection ~ 6000 5500
 Wire Wire Line
 	6150 5175 6200 5175
 Wire Wire Line
 	6200 5175 6200 5500
-Connection ~ 6200 5500
 Wire Wire Line
 	5400 3725 5275 3725
 Wire Wire Line
 	5275 3725 5275 3675
 Wire Wire Line
 	5275 3675 5075 3675
-Connection ~ 5075 3675
 Wire Wire Line
 	5075 3875 5400 3875
 Wire Wire Line
 	5400 3875 5400 3825
-Connection ~ 5075 3875
 $Comp
-L pygameboy-rescue:BSS138-Transistor Q1
+L Transistor_FET:BSS138 Q1
 U 1 1 5AE88C62
 P 5100 6000
 F 0 "Q1" H 5306 6046 50  0000 L CNN
@@ -750,7 +734,7 @@ RESET
 Text Label 5300 6000 0    50   ~ 0
 GB_RESET
 $Comp
-L pygameboy-rescue:R_Small-device R2
+L Device:R_Small R2
 U 1 1 5AE8B1FB
 P 5975 6025
 F 0 "R2" H 6034 6071 50  0000 L CNN
@@ -774,7 +758,7 @@ $EndComp
 Text Label 5975 6125 3    50   ~ 0
 GB_RESET
 $Comp
-L pygameboy-rescue:AP2204K-3.3-regul U7
+L Regulator_Linear:AP2204K-3.3 U7
 U 1 1 5AE8B81C
 P 4450 7025
 F 0 "U7" H 4450 7367 50  0000 C CNN
@@ -785,7 +769,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 4450 7125 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:C_Small-device C13
+L Device:C_Small C13
 U 1 1 5AE8B87D
 P 4925 7025
 F 0 "C13" H 4833 6979 50  0000 R CNN
@@ -848,7 +832,6 @@ F 3 "" H 4925 6925 50  0001 C CNN
 	1    4925 6925
 	1    0    0    -1  
 $EndComp
-Connection ~ 4925 6925
 $Comp
 L power:+5V #PWR0133
 U 1 1 5AE8D294
@@ -860,7 +843,6 @@ F 3 "" H 4075 6925 50  0001 C CNN
 	1    4075 6925
 	1    0    0    -1  
 $EndComp
-Connection ~ 3925 6925
 $Comp
 L Device:C_Small C8
 U 1 1 5AE8D404
@@ -873,7 +855,7 @@ F 3 "" H 2300 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:C_Small-device C7
+L Device:C_Small C7
 U 1 1 5AE8D483
 P 1925 5700
 F 0 "C7" H 2017 5746 50  0000 L CNN
@@ -928,7 +910,7 @@ F 3 "" H 1925 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:C_Small-device C12
+L Device:C_Small C12
 U 1 1 5AE8D61C
 P 4850 2000
 F 0 "C12" H 4942 2046 50  0000 L CNN
@@ -961,7 +943,7 @@ F 3 "" H 4850 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:C_Small-device C9
+L Device:C_Small C9
 U 1 1 5AE8E8EB
 P 3825 4275
 F 0 "C9" H 3917 4321 50  0000 L CNN
@@ -994,7 +976,7 @@ F 3 "" H 3825 4375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:C_Small-device C11
+L Device:C_Small C11
 U 1 1 5AE8F1ED
 P 3950 800
 F 0 "C11" H 4042 846 50  0000 L CNN
@@ -1162,7 +1144,7 @@ $EndComp
 Wire Wire Line
 	9925 2150 9850 2150
 $Comp
-L pygameboy-rescue:D_Schottky-device D1
+L Device:D_Schottky D1
 U 1 1 5AE9AB5A
 P 3775 6925
 F 0 "D1" H 3900 7125 50  0000 C CNN
@@ -1173,7 +1155,7 @@ F 3 "" H 3775 6925 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L pygameboy-rescue:D_Schottky-device D2
+L Device:D_Schottky D2
 U 1 1 5AE9AD34
 P 3925 6775
 F 0 "D2" V 3971 6696 50  0000 R CNN
@@ -1195,7 +1177,7 @@ F 3 "" H 3625 6925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:LED-device D3
+L Device:LED D3
 U 1 1 5AE9BB74
 P 8400 2200
 F 0 "D3" V 8438 2083 50  0000 R CNN
@@ -1217,7 +1199,7 @@ F 3 "" H 8400 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:R_Small-device R4
+L Device:R_Small R4
 U 1 1 5AE9BCE4
 P 8400 2450
 F 0 "R4" H 8459 2496 50  0000 L CNN
@@ -1232,7 +1214,7 @@ LED
 Text Label 8400 2550 3    50   ~ 0
 LED
 $Comp
-L pygameboy-rescue:R_Small-device R3
+L Device:R_Small R3
 U 1 1 5AE9BFF5
 P 4500 4925
 F 0 "R3" H 4559 4971 50  0000 L CNN
@@ -1292,7 +1274,7 @@ F 3 "" H 1000 875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:C_Small-device C15
+L Device:C_Small C15
 U 1 1 5B051533
 P 6950 2025
 F 0 "C15" V 7125 2025 50  0000 C CNN
@@ -1302,9 +1284,8 @@ F 3 "" H 6950 2025 50  0001 C CNN
 	1    6950 2025
 	0    1    1    0   
 $EndComp
-Connection ~ 6850 2025
 $Comp
-L pygameboy-rescue:C_Small-device C14
+L Device:C_Small C14
 U 1 1 5B0516E8
 P 6950 1850
 F 0 "C14" V 6750 1850 50  0000 C CNN
@@ -1314,7 +1295,6 @@ F 3 "" H 6950 1850 50  0001 C CNN
 	1    6950 1850
 	0    1    1    0   
 $EndComp
-Connection ~ 6850 1850
 $Comp
 L power:GND #PWR0151
 U 1 1 5B05190F
@@ -1370,7 +1350,7 @@ SWO
 Text Label 8175 1400 0    50   ~ 0
 SWO
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP1
+L Connector:TestPoint TP1
 U 1 1 5B1DC0E8
 P 1000 875
 F 0 "TP1" V 954 1063 50  0000 L CNN
@@ -1380,9 +1360,8 @@ F 3 "~" H 1200 875 50  0001 C CNN
 	1    1000 875 
 	0    1    1    0   
 $EndComp
-Connection ~ 1000 875 
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP2
+L Connector:TestPoint TP2
 U 1 1 5B1DC182
 P 1000 975
 F 0 "TP2" V 954 1163 50  0000 L CNN
@@ -1393,7 +1372,7 @@ F 3 "~" H 1200 975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP3
+L Connector:TestPoint TP3
 U 1 1 5B1DC1DA
 P 1000 1075
 F 0 "TP3" V 954 1263 50  0000 L CNN
@@ -1404,7 +1383,7 @@ F 3 "~" H 1200 1075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP4
+L Connector:TestPoint TP4
 U 1 1 5B1DC236
 P 1000 1175
 F 0 "TP4" V 954 1363 50  0000 L CNN
@@ -1415,7 +1394,7 @@ F 3 "~" H 1200 1175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP5
+L Connector:TestPoint TP5
 U 1 1 5B1DC292
 P 1000 1275
 F 0 "TP5" V 954 1463 50  0000 L CNN
@@ -1426,7 +1405,7 @@ F 3 "~" H 1200 1275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP6
+L Connector:TestPoint TP6
 U 1 1 5B1DC2F2
 P 1000 1375
 F 0 "TP6" V 954 1563 50  0000 L CNN
@@ -1437,7 +1416,7 @@ F 3 "~" H 1200 1375 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP7
+L Connector:TestPoint TP7
 U 1 1 5B1DC352
 P 1000 1475
 F 0 "TP7" V 954 1663 50  0000 L CNN
@@ -1448,7 +1427,7 @@ F 3 "~" H 1200 1475 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP8
+L Connector:TestPoint TP8
 U 1 1 5B1DC3B4
 P 1000 1575
 F 0 "TP8" V 954 1763 50  0000 L CNN
@@ -1459,7 +1438,7 @@ F 3 "~" H 1200 1575 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP9
+L Connector:TestPoint TP9
 U 1 1 5B1DC418
 P 1000 1675
 F 0 "TP9" V 954 1863 50  0000 L CNN
@@ -1470,7 +1449,7 @@ F 3 "~" H 1200 1675 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP10
+L Connector:TestPoint TP10
 U 1 1 5B1DC47E
 P 1000 1775
 F 0 "TP10" V 954 1963 50  0000 L CNN
@@ -1481,7 +1460,7 @@ F 3 "~" H 1200 1775 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP11
+L Connector:TestPoint TP11
 U 1 1 5B1DC4E6
 P 1000 1875
 F 0 "TP11" V 954 2063 50  0000 L CNN
@@ -1492,7 +1471,7 @@ F 3 "~" H 1200 1875 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP12
+L Connector:TestPoint TP12
 U 1 1 5B1DC550
 P 1000 1975
 F 0 "TP12" V 954 2163 50  0000 L CNN
@@ -1503,7 +1482,7 @@ F 3 "~" H 1200 1975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP13
+L Connector:TestPoint TP13
 U 1 1 5B1DC5C0
 P 1000 2075
 F 0 "TP13" V 954 2263 50  0000 L CNN
@@ -1514,7 +1493,7 @@ F 3 "~" H 1200 2075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP14
+L Connector:TestPoint TP14
 U 1 1 5B1DC630
 P 1000 2175
 F 0 "TP14" V 954 2363 50  0000 L CNN
@@ -1525,7 +1504,7 @@ F 3 "~" H 1200 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP15
+L Connector:TestPoint TP15
 U 1 1 5B1DC6A2
 P 1000 2275
 F 0 "TP15" V 954 2463 50  0000 L CNN
@@ -1536,7 +1515,7 @@ F 3 "~" H 1200 2275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP16
+L Connector:TestPoint TP16
 U 1 1 5B1DC714
 P 1000 2375
 F 0 "TP16" V 954 2563 50  0000 L CNN
@@ -1547,7 +1526,7 @@ F 3 "~" H 1200 2375 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP17
+L Connector:TestPoint TP17
 U 1 1 5B1DC78A
 P 1000 2475
 F 0 "TP17" V 954 2663 50  0000 L CNN
@@ -1558,7 +1537,7 @@ F 3 "~" H 1200 2475 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP18
+L Connector:TestPoint TP18
 U 1 1 5B1DC802
 P 1000 2575
 F 0 "TP18" V 954 2763 50  0000 L CNN
@@ -1569,7 +1548,7 @@ F 3 "~" H 1200 2575 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP19
+L Connector:TestPoint TP19
 U 1 1 5B1DC87E
 P 1000 2675
 F 0 "TP19" V 954 2863 50  0000 L CNN
@@ -1580,7 +1559,7 @@ F 3 "~" H 1200 2675 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP20
+L Connector:TestPoint TP20
 U 1 1 5B1DC8FA
 P 1000 2775
 F 0 "TP20" V 954 2963 50  0000 L CNN
@@ -1591,7 +1570,7 @@ F 3 "~" H 1200 2775 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP21
+L Connector:TestPoint TP21
 U 1 1 5B1DC9AC
 P 1000 2875
 F 0 "TP21" V 954 3063 50  0000 L CNN
@@ -1602,7 +1581,7 @@ F 3 "~" H 1200 2875 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP22
+L Connector:TestPoint TP22
 U 1 1 5B1DCA32
 P 1000 2975
 F 0 "TP22" V 954 3163 50  0000 L CNN
@@ -1613,7 +1592,7 @@ F 3 "~" H 1200 2975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP23
+L Connector:TestPoint TP23
 U 1 1 5B1DCAB2
 P 1000 3075
 F 0 "TP23" V 954 3263 50  0000 L CNN
@@ -1624,7 +1603,7 @@ F 3 "~" H 1200 3075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP24
+L Connector:TestPoint TP24
 U 1 1 5B1DCB34
 P 1000 3175
 F 0 "TP24" V 954 3363 50  0000 L CNN
@@ -1635,7 +1614,7 @@ F 3 "~" H 1200 3175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP25
+L Connector:TestPoint TP25
 U 1 1 5B1DCBB9
 P 1000 3275
 F 0 "TP25" V 954 3463 50  0000 L CNN
@@ -1646,7 +1625,7 @@ F 3 "~" H 1200 3275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP26
+L Connector:TestPoint TP26
 U 1 1 5B1DCC42
 P 1000 3375
 F 0 "TP26" V 954 3563 50  0000 L CNN
@@ -1657,7 +1636,7 @@ F 3 "~" H 1200 3375 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP27
+L Connector:TestPoint TP27
 U 1 1 5B1DCCCA
 P 1000 3475
 F 0 "TP27" V 954 3663 50  0000 L CNN
@@ -1668,7 +1647,7 @@ F 3 "~" H 1200 3475 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP28
+L Connector:TestPoint TP28
 U 1 1 5B1DCD54
 P 1000 3575
 F 0 "TP28" V 954 3763 50  0000 L CNN
@@ -1679,7 +1658,7 @@ F 3 "~" H 1200 3575 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP29
+L Connector:TestPoint TP29
 U 1 1 5B1DCDE0
 P 1000 3675
 F 0 "TP29" V 954 3863 50  0000 L CNN
@@ -1690,7 +1669,7 @@ F 3 "~" H 1200 3675 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP30
+L Connector:TestPoint TP30
 U 1 1 5B1DCE6E
 P 1000 3775
 F 0 "TP30" V 954 3963 50  0000 L CNN
@@ -1701,7 +1680,7 @@ F 3 "~" H 1200 3775 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP32
+L Connector:TestPoint TP32
 U 1 1 5B1DCF00
 P 1000 3975
 F 0 "TP32" V 954 4163 50  0000 L CNN
@@ -1711,9 +1690,8 @@ F 3 "~" H 1200 3975 50  0001 C CNN
 	1    1000 3975
 	0    1    1    0   
 $EndComp
-Connection ~ 1000 3975
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP31
+L Connector:TestPoint TP31
 U 1 1 5B1DCF97
 P 1000 3875
 F 0 "TP31" V 954 4063 50  0000 L CNN
@@ -1724,7 +1702,7 @@ F 3 "~" H 1200 3875 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP35
+L Connector:TestPoint TP35
 U 1 1 5B1DD475
 P 5300 6000
 F 0 "TP35" H 5242 6027 50  0000 R CNN
@@ -1735,7 +1713,7 @@ F 3 "~" H 5500 6000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP34
+L Connector:TestPoint TP34
 U 1 1 5B1DD595
 P 4500 5025
 F 0 "TP34" V 4700 5325 50  0000 C CNN
@@ -1746,7 +1724,7 @@ F 3 "~" H 4700 5025 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP33
+L Connector:TestPoint TP33
 U 1 1 5B1DD6B0
 P 2975 5325
 F 0 "TP33" H 3033 5445 50  0000 L CNN
@@ -1757,7 +1735,7 @@ F 3 "~" H 3175 5325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP36
+L Connector:TestPoint TP36
 U 1 1 5B1DD9C3
 P 8975 1400
 F 0 "TP36" V 8929 1588 50  0000 L CNN
@@ -1768,7 +1746,7 @@ F 3 "~" H 9175 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP37
+L Connector:TestPoint TP37
 U 1 1 5B1E24C2
 P 5625 6975
 F 0 "TP37" V 5579 7163 50  0000 L CNN
@@ -1779,7 +1757,7 @@ F 3 "~" H 5825 6975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP38
+L Connector:TestPoint TP38
 U 1 1 5B1E2963
 P 5800 6975
 F 0 "TP38" V 5754 7163 50  0000 L CNN
@@ -1790,7 +1768,7 @@ F 3 "~" H 6000 6975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP39
+L Connector:TestPoint TP39
 U 1 1 5B1E2A10
 P 6000 6975
 F 0 "TP39" V 5954 7163 50  0000 L CNN
@@ -1823,7 +1801,7 @@ F 3 "" H 5800 6975 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP40
+L Connector:TestPoint TP40
 U 1 1 5B1E4350
 P 4925 5025
 F 0 "TP40" V 4879 5213 50  0000 L CNN
@@ -1834,7 +1812,7 @@ F 3 "~" H 5125 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP41
+L Connector:TestPoint TP41
 U 1 1 5B1E441C
 P 5100 5025
 F 0 "TP41" V 5054 5213 50  0000 L CNN
@@ -1851,7 +1829,7 @@ Text Label 5100 5025 3    50   ~ 0
 Text Label 5250 5025 3    50   ~ 0
 3V_WR
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP42
+L Connector:TestPoint TP42
 U 1 1 5B1E49ED
 P 5250 5025
 F 0 "TP42" V 5204 5213 50  0000 L CNN
@@ -1862,7 +1840,7 @@ F 3 "~" H 5450 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP43
+L Connector:TestPoint TP43
 U 1 1 5B1E4A9B
 P 5400 5025
 F 0 "TP43" V 5354 5213 50  0000 L CNN
@@ -1875,7 +1853,7 @@ $EndComp
 Text Label 5400 5025 3    50   ~ 0
 3V_A15
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP45
+L Connector:TestPoint TP45
 U 1 1 5B1E502D
 P 8075 3925
 F 0 "TP45" V 8029 4113 50  0000 L CNN
@@ -1886,7 +1864,7 @@ F 3 "~" H 8275 3925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP44
+L Connector:TestPoint TP44
 U 1 1 5B1E5237
 P 7875 3825
 F 0 "TP44" V 7829 4013 50  0000 L CNN
@@ -1924,11 +1902,6 @@ F 3 "~" H 8975 1600 50  0001 C CNN
 	1    8975 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8975 1325 8975 1400
-Connection ~ 8975 1400
-Wire Wire Line
-	8975 1400 8975 1500
 $Comp
 L power:GND #PWR0158
 U 1 1 5C450EAB
@@ -1941,7 +1914,7 @@ F 3 "" H 8975 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP46
+L Connector:TestPoint TP46
 U 1 1 5C45223E
 P 4750 5025
 F 0 "TP46" V 4704 5213 50  0000 L CNN
@@ -2091,7 +2064,7 @@ F 3 "" H 11125 3875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP47
+L Connector:TestPoint TP47
 U 1 1 5C4A8892
 P 2600 5400
 F 0 "TP47" V 2554 5588 50  0000 L CNN
@@ -2328,7 +2301,7 @@ F 3 "" H 975 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP48
+L Connector:TestPoint TP48
 U 1 1 5C863BE1
 P 975 4500
 F 0 "TP48" V 929 4688 50  0000 L CNN
@@ -2339,7 +2312,7 @@ F 3 "~" H 1175 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP49
+L Connector:TestPoint TP49
 U 1 1 5C863BE9
 P 975 4600
 F 0 "TP49" V 929 4788 50  0000 L CNN
@@ -2350,7 +2323,7 @@ F 3 "~" H 1175 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP50
+L Connector:TestPoint TP50
 U 1 1 5C863BF0
 P 975 4700
 F 0 "TP50" V 929 4888 50  0000 L CNN
@@ -2361,7 +2334,7 @@ F 3 "~" H 1175 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP51
+L Connector:TestPoint TP51
 U 1 1 5C863BF7
 P 975 4800
 F 0 "TP51" V 929 4988 50  0000 L CNN
@@ -2372,7 +2345,7 @@ F 3 "~" H 1175 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP52
+L Connector:TestPoint TP52
 U 1 1 5C863BFE
 P 975 4900
 F 0 "TP52" V 929 5088 50  0000 L CNN
@@ -2383,7 +2356,7 @@ F 3 "~" H 1175 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP53
+L Connector:TestPoint TP53
 U 1 1 5C863C05
 P 975 5000
 F 0 "TP53" V 929 5188 50  0000 L CNN
@@ -2394,7 +2367,7 @@ F 3 "~" H 1175 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP54
+L Connector:TestPoint TP54
 U 1 1 5C863C0C
 P 975 5100
 F 0 "TP54" V 929 5288 50  0000 L CNN
@@ -2405,7 +2378,7 @@ F 3 "~" H 1175 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP55
+L Connector:TestPoint TP55
 U 1 1 5C863C13
 P 975 5200
 F 0 "TP55" V 929 5388 50  0000 L CNN
@@ -2416,7 +2389,7 @@ F 3 "~" H 1175 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP56
+L Connector:TestPoint TP56
 U 1 1 5C863C1A
 P 975 5300
 F 0 "TP56" V 929 5488 50  0000 L CNN
@@ -2427,7 +2400,7 @@ F 3 "~" H 1175 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP57
+L Connector:TestPoint TP57
 U 1 1 5C863C21
 P 975 5400
 F 0 "TP57" V 929 5588 50  0000 L CNN
@@ -2438,7 +2411,7 @@ F 3 "~" H 1175 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP58
+L Connector:TestPoint TP58
 U 1 1 5C863C28
 P 975 5500
 F 0 "TP58" V 929 5688 50  0000 L CNN
@@ -2449,7 +2422,7 @@ F 3 "~" H 1175 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP59
+L Connector:TestPoint TP59
 U 1 1 5C863C2F
 P 975 5600
 F 0 "TP59" V 929 5788 50  0000 L CNN
@@ -2460,7 +2433,7 @@ F 3 "~" H 1175 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP60
+L Connector:TestPoint TP60
 U 1 1 5C863C36
 P 975 5700
 F 0 "TP60" V 929 5888 50  0000 L CNN
@@ -2471,7 +2444,7 @@ F 3 "~" H 1175 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP61
+L Connector:TestPoint TP61
 U 1 1 5C863C3D
 P 975 5800
 F 0 "TP61" V 929 5988 50  0000 L CNN
@@ -2482,7 +2455,7 @@ F 3 "~" H 1175 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP62
+L Connector:TestPoint TP62
 U 1 1 5C863C44
 P 975 5900
 F 0 "TP62" V 929 6088 50  0000 L CNN
@@ -2493,7 +2466,7 @@ F 3 "~" H 1175 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP63
+L Connector:TestPoint TP63
 U 1 1 5C863C4B
 P 975 6000
 F 0 "TP63" V 929 6188 50  0000 L CNN
@@ -2504,7 +2477,7 @@ F 3 "~" H 1175 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP64
+L Connector:TestPoint TP64
 U 1 1 5C863C52
 P 975 6100
 F 0 "TP64" V 929 6288 50  0000 L CNN
@@ -2515,7 +2488,7 @@ F 3 "~" H 1175 6100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP65
+L Connector:TestPoint TP65
 U 1 1 5C863C59
 P 975 6200
 F 0 "TP65" V 929 6388 50  0000 L CNN
@@ -2526,7 +2499,7 @@ F 3 "~" H 1175 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP66
+L Connector:TestPoint TP66
 U 1 1 5C863C60
 P 975 6300
 F 0 "TP66" V 929 6488 50  0000 L CNN
@@ -2537,7 +2510,7 @@ F 3 "~" H 1175 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP67
+L Connector:TestPoint TP67
 U 1 1 5C863C67
 P 975 6400
 F 0 "TP67" V 929 6588 50  0000 L CNN
@@ -2548,7 +2521,7 @@ F 3 "~" H 1175 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP68
+L Connector:TestPoint TP68
 U 1 1 5C863C6E
 P 975 6500
 F 0 "TP68" V 929 6688 50  0000 L CNN
@@ -2559,7 +2532,7 @@ F 3 "~" H 1175 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP69
+L Connector:TestPoint TP69
 U 1 1 5C863C75
 P 975 6600
 F 0 "TP69" V 929 6788 50  0000 L CNN
@@ -2570,7 +2543,7 @@ F 3 "~" H 1175 6600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP70
+L Connector:TestPoint TP70
 U 1 1 5C863C7C
 P 975 6700
 F 0 "TP70" V 929 6888 50  0000 L CNN
@@ -2581,7 +2554,7 @@ F 3 "~" H 1175 6700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP71
+L Connector:TestPoint TP71
 U 1 1 5C863C83
 P 975 6800
 F 0 "TP71" V 929 6988 50  0000 L CNN
@@ -2592,7 +2565,7 @@ F 3 "~" H 1175 6800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP72
+L Connector:TestPoint TP72
 U 1 1 5C863C8A
 P 975 6900
 F 0 "TP72" V 929 7088 50  0000 L CNN
@@ -2603,7 +2576,7 @@ F 3 "~" H 1175 6900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP73
+L Connector:TestPoint TP73
 U 1 1 5C863C91
 P 975 7000
 F 0 "TP73" V 929 7188 50  0000 L CNN
@@ -2614,7 +2587,7 @@ F 3 "~" H 1175 7000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP74
+L Connector:TestPoint TP74
 U 1 1 5C863C98
 P 975 7100
 F 0 "TP74" V 929 7288 50  0000 L CNN
@@ -2625,7 +2598,7 @@ F 3 "~" H 1175 7100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP75
+L Connector:TestPoint TP75
 U 1 1 5C863C9F
 P 975 7200
 F 0 "TP75" V 929 7388 50  0000 L CNN
@@ -2636,7 +2609,7 @@ F 3 "~" H 1175 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP76
+L Connector:TestPoint TP76
 U 1 1 5C863CA6
 P 975 7300
 F 0 "TP76" V 929 7488 50  0000 L CNN
@@ -2647,7 +2620,7 @@ F 3 "~" H 1175 7300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP77
+L Connector:TestPoint TP77
 U 1 1 5C863CAD
 P 975 7400
 F 0 "TP77" V 929 7588 50  0000 L CNN
@@ -2658,7 +2631,7 @@ F 3 "~" H 1175 7400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP79
+L Connector:TestPoint TP79
 U 1 1 5C863CB4
 P 975 7600
 F 0 "TP79" V 929 7788 50  0000 L CNN
@@ -2675,7 +2648,7 @@ AUD
 Text Label 975  7500 2    50   ~ 0
 AUD
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP78
+L Connector:TestPoint TP78
 U 1 1 5C8714DB
 P 975 7500
 F 0 "TP78" V 929 7688 50  0000 L CNN
@@ -2710,7 +2683,7 @@ $EndComp
 Text Notes 1825 6450 0    50   ~ 0
 Fiducials
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP80
+L Connector:TestPoint TP80
 U 1 1 5C8768AF
 P 10600 800
 F 0 "TP80" V 10554 988 50  0000 L CNN
@@ -2723,7 +2696,7 @@ $EndComp
 Text Label 10600 800  2    50   ~ 0
 SAMD_RESET
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP81
+L Connector:TestPoint TP81
 U 1 1 5C8770F6
 P 10600 975
 F 0 "TP81" V 10554 1163 50  0000 L CNN
@@ -2734,7 +2707,7 @@ F 3 "~" H 10800 975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP82
+L Connector:TestPoint TP82
 U 1 1 5C87720B
 P 10600 1150
 F 0 "TP82" V 10554 1338 50  0000 L CNN
@@ -2745,7 +2718,7 @@ F 3 "~" H 10800 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP83
+L Connector:TestPoint TP83
 U 1 1 5C877322
 P 10600 1325
 F 0 "TP83" V 10554 1513 50  0000 L CNN
@@ -2762,7 +2735,7 @@ SWDIO
 Text Label 10600 1325 2    50   ~ 0
 SWO
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP84
+L Connector:TestPoint TP84
 U 1 1 5C877A5F
 P 10600 1525
 F 0 "TP84" V 10554 1713 50  0000 L CNN
@@ -2784,7 +2757,7 @@ F 3 "" H 10600 1525 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pygameboy-rescue:Test_Point-Connector TP85
+L Connector:TestPoint TP85
 U 1 1 5C87930D
 P 10600 1725
 F 0 "TP85" V 10554 1913 50  0000 L CNN
@@ -2805,4 +2778,8 @@ F 3 "" H 10600 1725 50  0001 C CNN
 	1    10600 1725
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6650 1850 6650 2525
+Wire Wire Line
+	8975 1325 8975 1500
 $EndSCHEMATC
