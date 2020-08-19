@@ -6,4 +6,5 @@
   (lib (name SJ-3523-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/libs/SJ-3523-SMT-TR.mod)(options "")(descr "")(disabled))
   (lib (name cui-audio)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/footprints/cui-audio.pretty)(options "")(descr ""))
   (lib (name adafruit)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/footprints/adafruit.pretty)(options "")(descr ""))
+  (lib (name smt-swd)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/footprints/adafruit.pretty/smt-swd.pretty)(options "")(descr ""))
 )
