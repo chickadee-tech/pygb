@@ -7,4 +7,6 @@
 **/gerber.zip
 **/_autosave*
 fp-info-cache
+.history
+*-backups/**
 
