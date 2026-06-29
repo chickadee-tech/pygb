@@ -5039,16 +5039,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 92.71) (xy 102.87 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5bb9e27-a05e-4d0a-b402-df2b775126ec")
-	)
-	(wire
-		(pts
 			(xy 215.9 16.51) (xy 215.9 15.24)
 		)
 		(stroke
@@ -5297,16 +5287,6 @@
 		)
 		(uuid "3432428b-5a52-49d6-a521-e4db08ce88a0")
 	)
-	(label "QSPI_SS"
-		(at 102.87 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "360833b6-cb99-4e8a-ad70-652bad4092ff")
-	)
 	(label "XIN"
 		(at 111.76 179.705 180)
 		(effects
@@ -5529,6 +5509,17 @@
 			(justify left)
 		)
 		(uuid "17c942b1-f67a-4726-8595-d49865c9cd0b")
+	)
+	(hierarchical_label "BOOT"
+		(shape input)
+		(at 118.11 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1922133a-5a25-458e-a776-a8f01f9a0ec1")
 	)
 	(hierarchical_label "GPIO16"
 		(shape input)
@@ -5793,17 +5784,6 @@
 			(justify left)
 		)
 		(uuid "755384d9-8d51-4e15-ad28-a1c2ecec8f5a")
-	)
-	(hierarchical_label "QSPI_SS"
-		(shape input)
-		(at 96.52 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d6e9af9-185f-4f5c-a5e2-5b98a6ff6bb3")
 	)
 	(hierarchical_label "GPIO13"
 		(shape input)
@@ -8793,82 +8773,6 @@
 			(project "RP2350_80QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f5efca2-c3ff-4fc2-be7e-07998ac67a2a")
-		(property "Reference" "#PWR0210"
-			(at 118.11 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.237 81.8642 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "adb6d370-136c-4652-8e5c-382958cbe4bb")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea/e20e6721-8f13-4e3b-9d71-8094fcd7542f"
-					(reference "#PWR0210")
 					(unit 1)
 				)
 			)

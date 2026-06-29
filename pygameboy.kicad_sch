@@ -5260,6 +5260,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Thanks to @todbot for this circuit."
+		(exclude_from_sim no)
+		(at 174.244 165.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e4b7c46-7590-405b-a442-ac5ead78ed28")
+	)
 	(text "Fiducials"
 		(exclude_from_sim no)
 		(at 46.355 163.83 0)
@@ -5355,6 +5365,12 @@
 		(uuid "a7cfe952-1c21-440e-a717-4691a3e91346")
 	)
 	(junction
+		(at 168.91 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa73e84c-f729-4a46-b9ee-05ec25895bf7")
+	)
+	(junction
 		(at 93.345 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5371,12 +5387,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d49f3466-210a-4478-b1ba-8bf64e3149c8")
-	)
-	(junction
-		(at 182.88 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8d5df3a-d146-432c-9d9d-a05bfda4e8b9")
 	)
 	(junction
 		(at 245.11 50.8)
@@ -5396,13 +5406,31 @@
 		(color 0 0 0 0)
 		(uuid "f3f70286-12cf-4066-8272-33931ad42c1b")
 	)
+	(junction
+		(at 184.15 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffabb76c-dbf1-451b-82dd-c17ebf074047")
+	)
+	(no_connect
+		(at 173.99 121.92)
+		(uuid "174d2679-0c9b-4ec3-87df-7c91d2fd92e8")
+	)
 	(no_connect
 		(at 247.65 60.96)
 		(uuid "1a918fa6-6e3d-42c1-94b2-0a1836a81c23")
 	)
 	(no_connect
+		(at 179.07 121.92)
+		(uuid "222ffa26-f1d7-44f7-b766-5ce8fc83799b")
+	)
+	(no_connect
 		(at 156.845 26.035)
 		(uuid "22a0df29-2f6a-42d8-b0b6-4585f026d8e4")
+	)
+	(no_connect
+		(at 181.61 121.92)
+		(uuid "58af453d-a0e2-44dc-a2cb-731932d1946f")
 	)
 	(no_connect
 		(at 156.845 19.05)
@@ -5411,6 +5439,14 @@
 	(no_connect
 		(at 247.65 63.5)
 		(uuid "d21b0e04-c6c4-4ede-bfd3-7f84c8c0e35a")
+	)
+	(no_connect
+		(at 184.15 121.92)
+		(uuid "dd3df1bc-994e-4ca9-9f82-b10a2d3733ca")
+	)
+	(no_connect
+		(at 176.53 121.92)
+		(uuid "f0d5ab14-8219-4304-8402-df4158873839")
 	)
 	(wire
 		(pts
@@ -5584,6 +5620,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 151.13) (xy 168.91 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258c41a9-3a7e-4669-a694-7744e91f724f")
+	)
+	(wire
+		(pts
 			(xy 71.755 180.34) (xy 73.66 180.34)
 		)
 		(stroke
@@ -5654,6 +5700,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 151.13) (xy 168.91 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fa90d8-289b-4be1-9791-1841feb633e6")
+	)
+	(wire
+		(pts
 			(xy 154.94 110.49) (xy 158.75 110.49)
 		)
 		(stroke
@@ -5661,6 +5717,16 @@
 			(type default)
 		)
 		(uuid "3af773b2-1ecd-4fc9-b15f-b406facb6f34")
+	)
+	(wire
+		(pts
+			(xy 168.91 151.13) (xy 170.18 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d724860-a8a3-4c49-88a1-354afee187ac")
 	)
 	(wire
 		(pts
@@ -5934,6 +6000,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 142.24) (xy 184.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b0693b-157e-4f9f-9b04-e39e32f18ceb")
+	)
+	(wire
+		(pts
 			(xy 88.9 180.34) (xy 93.345 180.34)
 		)
 		(stroke
@@ -5991,16 +6067,6 @@
 			(type default)
 		)
 		(uuid "8f913271-1963-42e9-a48e-442e27750812")
-	)
-	(wire
-		(pts
-			(xy 182.88 151.13) (xy 182.88 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90e7cea9-d70a-4110-8a8d-d492e0a780fb")
 	)
 	(wire
 		(pts
@@ -6064,6 +6130,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 149.86) (xy 184.15 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee0ccb5-167c-42a4-ac63-4103ea8a2c2f")
+	)
+	(wire
+		(pts
 			(xy 268.605 98.425) (xy 271.78 98.425)
 		)
 		(stroke
@@ -6081,6 +6157,16 @@
 			(type default)
 		)
 		(uuid "abe88e0b-67e9-44a6-a4d7-d3bba5150fbf")
+	)
+	(wire
+		(pts
+			(xy 181.61 151.13) (xy 184.15 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc5eb0a-7990-4d6d-97c9-e511a25c1540")
 	)
 	(wire
 		(pts
@@ -6144,6 +6230,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 157.48) (xy 184.15 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3aafff-3183-4396-b23e-d8f3b3efb0f3")
+	)
+	(wire
+		(pts
 			(xy 282.575 90.805) (xy 282.575 93.345)
 		)
 		(stroke
@@ -6161,6 +6257,26 @@
 			(type default)
 		)
 		(uuid "c03bd53d-4d40-43ac-a53f-92e66f12599f")
+	)
+	(wire
+		(pts
+			(xy 175.26 151.13) (xy 176.53 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15fc683-b624-4872-91b3-c2811d029efc")
+	)
+	(wire
+		(pts
+			(xy 158.75 151.13) (xy 162.56 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20ee651-959d-42b1-960e-f3949d969c40")
 	)
 	(wire
 		(pts
@@ -6184,6 +6300,26 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 151.13) (xy 187.96 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67acc1d-20f5-409b-838d-a8d7222dfca5")
+	)
+	(wire
+		(pts
+			(xy 184.15 151.13) (xy 184.15 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d16611-b0e6-4fe6-b0b7-8cd51d277718")
+	)
+	(wire
+		(pts
 			(xy 262.89 73.66) (xy 262.89 74.93)
 		)
 		(stroke
@@ -6194,16 +6330,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 147.32) (xy 182.88 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb932ec4-627d-443a-98b7-d8d78ad2e9ef")
-	)
-	(wire
-		(pts
 			(xy 154.94 102.87) (xy 158.75 102.87)
 		)
 		(stroke
@@ -6211,16 +6337,6 @@
 			(type default)
 		)
 		(uuid "d1ad57d0-7c67-44fe-ab53-f8fb844204c1")
-	)
-	(wire
-		(pts
-			(xy 179.07 151.13) (xy 182.88 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3cb8a78-088b-4b11-961c-5944ce94e96c")
 	)
 	(wire
 		(pts
@@ -6241,6 +6357,16 @@
 			(type default)
 		)
 		(uuid "d4d2a5a8-48da-4eff-a37f-08525ccacd73")
+	)
+	(wire
+		(pts
+			(xy 168.91 157.48) (xy 168.91 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d51f2c15-a61a-4f8a-bf72-90ca1082cf78")
 	)
 	(wire
 		(pts
@@ -6383,7 +6509,7 @@
 		(uuid "fffa3004-bfdb-409b-b53a-f6df8bc06c07")
 	)
 	(label "A8"
-		(at 154.94 105.41 180)
+		(at 154.94 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6393,12 +6519,12 @@
 		(uuid "004b08fd-2a2a-42e5-bcd5-d267732ffcb2")
 	)
 	(label "CLK"
-		(at 165.1 67.31 90)
+		(at 154.94 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "009cafff-a532-4349-a85a-e78e54ea82c5")
 	)
@@ -6453,7 +6579,7 @@
 		(uuid "0692cd0e-06f3-40db-8c6f-95fbc7bd1d71")
 	)
 	(label "A2"
-		(at 154.94 90.17 180)
+		(at 154.94 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6513,7 +6639,7 @@
 		(uuid "125d4586-8afe-46f1-a4f1-18663613f8f2")
 	)
 	(label "RD"
-		(at 154.94 80.01 180)
+		(at 154.94 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6543,7 +6669,7 @@
 		(uuid "1482d715-aaf0-4592-83b8-925e9c123b6f")
 	)
 	(label "A12"
-		(at 154.94 115.57 180)
+		(at 154.94 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6553,7 +6679,7 @@
 		(uuid "15352888-d834-4831-b138-d45fa03e4099")
 	)
 	(label "A9"
-		(at 154.94 107.95 180)
+		(at 154.94 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6563,7 +6689,7 @@
 		(uuid "1735dc3e-d8a3-4af3-b345-9849ce331969")
 	)
 	(label "A10"
-		(at 154.94 110.49 180)
+		(at 154.94 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6673,12 +6799,12 @@
 		(uuid "27b5c972-3a4f-4eaf-8701-38fe71e7b909")
 	)
 	(label "WR"
-		(at 162.56 67.31 90)
+		(at 154.94 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "27fb0b34-a7fd-4b75-919b-e7cfd2d8029c")
 	)
@@ -6713,7 +6839,7 @@
 		(uuid "299bea71-10b6-44f6-b72c-116e8173f885")
 	)
 	(label "A7"
-		(at 154.94 102.87 180)
+		(at 154.94 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6763,7 +6889,7 @@
 		(uuid "372e0bf1-3faa-446b-8c52-ca13fcc00f54")
 	)
 	(label "CS"
-		(at 154.94 82.55 180)
+		(at 168.91 125.73 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6783,7 +6909,7 @@
 		(uuid "417f7292-31c5-4ced-92be-daef912eccac")
 	)
 	(label "A4"
-		(at 154.94 95.25 180)
+		(at 154.94 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6793,12 +6919,12 @@
 		(uuid "47dc1621-9eb9-40f1-9f66-603b3f341632")
 	)
 	(label "A0"
-		(at 154.94 85.09 180)
+		(at 165.1 67.31 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "4888a127-c32d-4224-8f2b-a3c421f2ad86")
 	)
@@ -6883,7 +7009,7 @@
 		(uuid "50907036-cb1d-48c2-b1db-8fb9c7b2d846")
 	)
 	(label "A14"
-		(at 154.94 120.65 180)
+		(at 154.94 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6893,7 +7019,7 @@
 		(uuid "509419b2-f3f4-48bd-860f-23b0a7c0dbbf")
 	)
 	(label "A13"
-		(at 154.94 118.11 180)
+		(at 154.94 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6963,7 +7089,7 @@
 		(uuid "5ef6c476-2138-4882-b5ed-445fd1c889e8")
 	)
 	(label "A11"
-		(at 154.94 113.03 180)
+		(at 154.94 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6983,7 +7109,7 @@
 		(uuid "6242868f-9c24-42b1-ae85-c910449af308")
 	)
 	(label "A6"
-		(at 154.94 100.33 180)
+		(at 154.94 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7033,7 +7159,7 @@
 		(uuid "699af2d7-aa7f-4c2c-9b51-d50ec731c60c")
 	)
 	(label "A15"
-		(at 168.91 125.73 270)
+		(at 154.94 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7053,12 +7179,12 @@
 		(uuid "72d57654-cc2e-4d49-859e-e1037b4fd60d")
 	)
 	(label "A1"
-		(at 154.94 87.63 180)
+		(at 162.56 67.31 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "732fe6f6-d329-4b8b-8fba-0c1900464e02")
 	)
@@ -7083,7 +7209,7 @@
 		(uuid "7533b50d-9ed5-4eba-af7a-fd1aae67ad03")
 	)
 	(label "A5"
-		(at 154.94 97.79 180)
+		(at 154.94 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7203,12 +7329,12 @@
 		(uuid "91bd99db-b86a-4df5-b59d-b82b07d86d8e")
 	)
 	(label "PWM_AUDIO"
-		(at 182.88 142.24 0)
+		(at 158.75 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "92e8ae42-a856-49fe-b092-b59a700d2779")
 	)
@@ -7293,12 +7419,12 @@
 		(uuid "a0f581f6-dc96-46d2-949c-91dabb74fbad")
 	)
 	(label "AUD"
-		(at 179.07 151.13 180)
+		(at 187.96 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a189a5dd-a2ad-484b-aa78-cb3394e3cff1")
 	)
@@ -7483,7 +7609,7 @@
 		(uuid "b972a386-4fea-49da-b666-0a6eb3fb6a42")
 	)
 	(label "A3"
-		(at 154.94 92.71 180)
+		(at 154.94 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14125,7 +14251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 240.03 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -14204,7 +14330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 240.03 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -17710,8 +17836,8 @@
 		)
 	)
 	(symbol
-		(lib_id "pygameboy-rescue:GND-power")
-		(at 182.88 158.75 0)
+		(lib_id "Device:C_Small")
+		(at 179.07 151.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17719,10 +17845,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1a72781a-ab8b-447a-8d4f-9298c5231b54")
-		(property "Reference" "#PWR0168"
-			(at 182.88 165.1 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "18ba369e-5bc3-4855-80a8-3d4cda5409b4")
+		(property "Reference" "C101"
+			(at 179.0763 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17731,8 +17857,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 183.007 163.1442 0)
+		(property "Value" "1u"
+			(at 179.0763 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17741,8 +17867,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 182.88 158.75 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 179.07 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17753,7 +17879,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 158.75 0)
+			(at 179.07 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17196eb4-df7e-4069-86d2-f2568f83abab")
+		)
+		(pin "2"
+			(uuid "d2ff574b-1f21-430f-b21c-f054a61edccf")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pygameboy-rescue:GND-power")
+		(at 184.15 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a72781a-ab8b-447a-8d4f-9298c5231b54")
+		(property "Reference" "#PWR0168"
+			(at 184.15 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.277 163.1442 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17764,7 +17970,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 158.75 0)
+			(at 184.15 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17781,6 +17987,89 @@
 			(project "pygameboy"
 				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
 					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 184.15 147.32 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bfa905e-4382-43c2-8aea-826cc8ba1782")
+		(property "Reference" "R103"
+			(at 186.69 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.6k"
+			(at 186.69 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 184.15 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 184.15 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "66aa9a04-19b0-426e-ac39-72cd883c24d0")
+		)
+		(pin "1"
+			(uuid "10a256d0-b2f0-46bc-b718-ebd957a8b233")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -17858,6 +18147,87 @@
 			(project "pygameboy"
 				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
 					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 165.1 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43cfb4a0-92d1-4cf1-994e-b43329586b40")
+		(property "Reference" "R101"
+			(at 165.1 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 165.1 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 165.1 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34b032b3-ed6c-4b6d-86fe-088902fb5fe7")
+		)
+		(pin "1"
+			(uuid "f5d39f35-eecd-4c0b-8cca-a457c0ca324e")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -17952,7 +18322,7 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
-		(at 182.88 156.21 0)
+		(at 172.72 151.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17962,30 +18332,28 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b8405d8-aa68-4901-9650-e2e6c7d2e1e0")
-		(property "Reference" "R11"
-			(at 185.42 154.9399 0)
+		(property "Reference" "R102"
+			(at 172.72 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10k"
-			(at 185.42 157.4799 0)
+			(at 172.72 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 182.88 156.21 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17996,7 +18364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 156.21 0)
+			(at 172.72 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18007,7 +18375,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 182.88 156.21 0)
+			(at 172.72 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18026,7 +18394,7 @@
 		(instances
 			(project "pygameboy"
 				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "R11")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -18351,6 +18719,166 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 184.15 154.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "804b00b5-3f4b-4f3c-8c13-fad86061e3ad")
+		(property "Reference" "R104"
+			(at 186.69 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 186.69 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 184.15 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 184.15 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7c5c7911-c9b0-4633-9a48-d1c11a55d7f6")
+		)
+		(pin "1"
+			(uuid "0b02f5cf-35d3-4417-91a4-4dce49b14fb0")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "R104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pygameboy-rescue:GND-power")
+		(at 168.91 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "922d2901-e669-49e4-8ff3-78f3e49ea2de")
+		(property "Reference" "#PWR0102"
+			(at 168.91 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 169.037 163.1442 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22c1f3a9-4f63-4df2-a796-efb410b34629")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 245.11 40.64 90)
 		(unit 1)
@@ -18512,7 +19040,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 182.88 144.78 0)
+		(at 168.91 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18522,8 +19050,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b80ee7f4-f7bc-4b6a-9835-c695b0a36395")
-		(property "Reference" "C2"
-			(at 185.42 143.5162 0)
+		(property "Reference" "C102"
+			(at 171.45 153.6762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18533,8 +19061,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
-			(at 185.42 146.0562 0)
+		(property "Value" "100n"
+			(at 171.45 156.2162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18544,8 +19072,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 182.88 144.78 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 168.91 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18556,7 +19084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 144.78 0)
+			(at 168.91 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18567,7 +19095,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 182.88 144.78 0)
+			(at 168.91 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18586,7 +19114,84 @@
 		(instances
 			(project "pygameboy"
 				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "C2")
+					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pygameboy-rescue:+5V-power")
+		(at 184.15 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba969b4d-3567-45b3-95d4-86aa4aa76c4a")
+		(property "Reference" "#PWR0105"
+			(at 184.15 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 184.531 137.8458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de2038e3-9175-499c-9389-674d7ec33eef")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -19319,16 +19924,6 @@
 				(justify right)
 			)
 		)
-		(pin "QSPI_SS" input
-			(at 207.01 73.66 0)
-			(uuid "6297e3ee-e58c-47c4-8fe2-0c963c21fe2c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RUN" input
 			(at 207.01 76.2 0)
 			(uuid "e4799cd4-3ab0-4236-b28a-4df0ea7eb310")
@@ -19352,6 +19947,16 @@
 		(pin "USB_D-" input
 			(at 184.15 71.12 90)
 			(uuid "53dad531-ae2f-415f-ae98-e0c20cec1005")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOOT" input
+			(at 207.01 73.66 0)
+			(uuid "4a9392f5-7b91-4c1f-a1fd-4bd7e4b13af1")
 			(effects
 				(font
 					(size 1.27 1.27)
