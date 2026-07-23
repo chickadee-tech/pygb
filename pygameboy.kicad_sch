@@ -1199,6 +1199,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -5413,24 +5600,12 @@
 		(uuid "ffabb76c-dbf1-451b-82dd-c17ebf074047")
 	)
 	(no_connect
-		(at 173.99 121.92)
-		(uuid "174d2679-0c9b-4ec3-87df-7c91d2fd92e8")
-	)
-	(no_connect
 		(at 247.65 60.96)
 		(uuid "1a918fa6-6e3d-42c1-94b2-0a1836a81c23")
 	)
 	(no_connect
-		(at 179.07 121.92)
-		(uuid "222ffa26-f1d7-44f7-b766-5ce8fc83799b")
-	)
-	(no_connect
 		(at 156.845 26.035)
 		(uuid "22a0df29-2f6a-42d8-b0b6-4585f026d8e4")
-	)
-	(no_connect
-		(at 181.61 121.92)
-		(uuid "58af453d-a0e2-44dc-a2cb-731932d1946f")
 	)
 	(no_connect
 		(at 156.845 19.05)
@@ -5439,14 +5614,6 @@
 	(no_connect
 		(at 247.65 63.5)
 		(uuid "d21b0e04-c6c4-4ede-bfd3-7f84c8c0e35a")
-	)
-	(no_connect
-		(at 184.15 121.92)
-		(uuid "dd3df1bc-994e-4ca9-9f82-b10a2d3733ca")
-	)
-	(no_connect
-		(at 176.53 121.92)
-		(uuid "f0d5ab14-8219-4304-8402-df4158873839")
 	)
 	(wire
 		(pts
@@ -5520,7 +5687,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 121.92) (xy 194.31 124.46)
+			(xy 179.07 121.92) (xy 179.07 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5560,7 +5727,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 113.03) (xy 209.55 113.03)
+			(xy 191.77 121.92) (xy 191.77 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5570,7 +5737,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 121.92) (xy 196.85 124.46)
+			(xy 181.61 121.92) (xy 181.61 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5680,7 +5847,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 121.92) (xy 191.77 124.46)
+			(xy 176.53 121.92) (xy 176.53 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5780,7 +5947,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 121.92) (xy 186.69 124.46)
+			(xy 171.45 121.92) (xy 171.45 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5890,7 +6057,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 121.92) (xy 189.23 124.46)
+			(xy 173.99 121.92) (xy 173.99 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5940,7 +6107,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 115.57) (xy 209.55 115.57)
+			(xy 189.23 121.92) (xy 189.23 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6030,7 +6197,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 110.49) (xy 209.55 110.49)
+			(xy 194.31 121.92) (xy 194.31 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6200,7 +6367,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 120.65) (xy 209.55 120.65)
+			(xy 184.15 121.92) (xy 184.15 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6340,7 +6507,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 118.11) (xy 209.55 118.11)
+			(xy 186.69 121.92) (xy 186.69 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6559,7 +6726,7 @@
 		(uuid "05aa6684-91f6-4b6f-8c95-71a37ab1bd87")
 	)
 	(label "3V_D2"
-		(at 194.31 124.46 270)
+		(at 179.07 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6779,7 +6946,7 @@
 		(uuid "23999599-ae54-4dcc-9944-9db70fc5ee75")
 	)
 	(label "DATA_OE"
-		(at 186.69 124.46 270)
+		(at 171.45 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6877,6 +7044,16 @@
 			(justify right bottom)
 		)
 		(uuid "2fd57111-eb67-43bb-8b76-a73905f6501b")
+	)
+	(label "DEBUG_RX"
+		(at 207.01 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32de454b-d921-4840-b574-f2edb90dee68")
 	)
 	(label "RD"
 		(at 25.4 29.845 0)
@@ -7168,6 +7345,16 @@
 		)
 		(uuid "6d7bb01a-fbb1-4de3-8156-581d433e7021")
 	)
+	(label "DEBUG_TX"
+		(at 207.01 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72a817ad-8535-4184-9338-fdeaad5e46fa")
+	)
 	(label "D6"
 		(at 75.565 155.575 180)
 		(effects
@@ -7189,12 +7376,12 @@
 		(uuid "732fe6f6-d329-4b8b-8fba-0c1900464e02")
 	)
 	(label "3V_D4"
-		(at 209.55 120.65 0)
+		(at 184.15 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "745f3da0-0d8e-43b6-9ee1-b4c647a96a2e")
 	)
@@ -7267,6 +7454,16 @@
 			(justify right bottom)
 		)
 		(uuid "84bd5b11-4d6e-4ba8-a4f8-c61a9afa3b71")
+	)
+	(label "DEBUG_RX"
+		(at 227.33 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85c107bc-239c-46f2-9a8b-1270b324f1c9")
 	)
 	(label "A5"
 		(at 25.4 47.625 0)
@@ -7389,12 +7586,12 @@
 		(uuid "994ec568-ea9b-4492-ab19-23c5d12fb3e2")
 	)
 	(label "3V_D7"
-		(at 209.55 113.03 0)
+		(at 191.77 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9c14d84f-084d-404f-875b-3f1b2ffca4e4")
 	)
@@ -7429,7 +7626,7 @@
 		(uuid "a189a5dd-a2ad-484b-aa78-cb3394e3cff1")
 	)
 	(label "3V_D1"
-		(at 191.77 124.46 270)
+		(at 176.53 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7469,7 +7666,7 @@
 		(uuid "a72aa6ae-b628-4b1e-a2eb-b1a518b48629")
 	)
 	(label "3V_D3"
-		(at 196.85 124.46 270)
+		(at 181.61 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7558,6 +7755,16 @@
 		)
 		(uuid "b5ae741d-17bc-4684-9894-16cfba1a3099")
 	)
+	(label "DEBUG_TX"
+		(at 227.33 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5e8a98c-a78b-472c-a3ef-abd98c2e628b")
+	)
 	(label "D5"
 		(at 24.765 180.34 180)
 		(effects
@@ -7619,7 +7826,7 @@
 		(uuid "b9c8e856-087c-47c8-9c02-9f732fd50792")
 	)
 	(label "3V_D0"
-		(at 189.23 124.46 270)
+		(at 173.99 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7629,12 +7836,12 @@
 		(uuid "badf6f2a-70d7-4e34-93fd-65da0ce8d536")
 	)
 	(label "3V_D6"
-		(at 209.55 115.57 0)
+		(at 189.23 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bc73bca4-c80c-4ed6-ab97-8b3a8675fa17")
 	)
@@ -7709,12 +7916,12 @@
 		(uuid "c89989e6-9068-4d43-814b-b1d87bfa93b3")
 	)
 	(label "3V_D5"
-		(at 209.55 118.11 0)
+		(at 186.69 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d2951140-28e6-4476-ae67-e1617e20b8cc")
 	)
@@ -7819,12 +8026,12 @@
 		(uuid "e976dc64-5ce6-4961-b1d4-0fc955b25464")
 	)
 	(label "RP_GB_RESET"
-		(at 209.55 110.49 0)
+		(at 194.31 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f47a0514-16e7-4768-919c-a20a5b004624")
 	)
@@ -17836,6 +18043,83 @@
 		)
 	)
 	(symbol
+		(lib_id "pygameboy-rescue:GND-power")
+		(at 227.33 77.47 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f327ec5-724e-4f04-9c83-1ce94b68755a")
+		(property "Reference" "#PWR0107"
+			(at 220.98 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.504 76.962 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83ab6bee-22e4-422d-a34d-6777afc262ed")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 179.07 151.13 90)
 		(unit 1)
@@ -19192,6 +19476,91 @@
 			(project "pygameboy"
 				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 232.41 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb9e6f24-e20b-4998-bbd7-39c361bc9d0a")
+		(property "Reference" "J101"
+			(at 234.95 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 234.95 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(at 232.41 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 232.41 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4f9a066b-cd5a-467a-9898-81b11b265589")
+		)
+		(pin "1"
+			(uuid "6b7424b6-2981-49fa-84d0-05bc32bb4d8c")
+		)
+		(pin "2"
+			(uuid "0fe7eaf8-04bd-4c71-a754-62848b2e0f51")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "J101")
 					(unit 1)
 				)
 			)
