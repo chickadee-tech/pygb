@@ -750,6 +750,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4148W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_RaspberryPi_RP2350:RP2350_80QFN"
 			(pin_names
 				(offset 1.016)
@@ -2980,6 +3167,16 @@
 			(justify left bottom)
 		)
 		(uuid "9eed8653-63d4-4ee0-ae0c-c95a87e5c988")
+	)
+	(text "TODO: Add PSRAM footprint if we have space.\nC3040877 8MB APS USON-L SOP-8"
+		(exclude_from_sim no)
+		(at 86.614 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2c16c4a-eefe-4896-92d0-7bedb0e2132c")
 	)
 	(junction
 		(at 95.25 69.85)
@@ -5447,6 +5644,16 @@
 		)
 		(uuid "d67817cb-907f-46de-8d93-dcb66033dab6")
 	)
+	(label "NEOPIXEL"
+		(at 2.6988 4.5468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0f849f8-1c6e-431e-86bf-a6fd71e83c74")
+	)
 	(label "QSPI_SD1"
 		(at 73.025 80.01 180)
 		(effects
@@ -5476,6 +5683,17 @@
 			(justify left bottom)
 		)
 		(uuid "f8be8147-5b00-4cfe-9a45-4ddc22155e61")
+	)
+	(hierarchical_label "SWD"
+		(shape input)
+		(at 128.27 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07ddcc91-54c0-42bf-9f08-c315ad9a0eb2")
 	)
 	(hierarchical_label "GPIO30"
 		(shape input)
@@ -5512,7 +5730,7 @@
 	)
 	(hierarchical_label "BOOT"
 		(shape input)
-		(at 118.11 77.47 180)
+		(at 110.49 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5960,6 +6178,17 @@
 			(justify left)
 		)
 		(uuid "e35ea5a0-38e4-4b5a-a852-2590ca1925cc")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 128.27 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e81b1e36-f5d8-4915-8798-585dc83ba2e5")
 	)
 	(hierarchical_label "GPIO6"
 		(shape input)
@@ -7935,6 +8164,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 114.3 77.47 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b7281e3-ada5-4c1d-a103-cfcbeb05b983")
+		(property "Reference" "D201"
+			(at 113.1316 79.502 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 115.57 79.756 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 114.3 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 114.3 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c5b8f5f-44e2-4d6a-b432-3ccf82c67e3c")
+		)
+		(pin "2"
+			(uuid "ce0acd0c-e4a8-4e79-afcc-bca7f57741cb")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea/e20e6721-8f13-4e3b-9d71-8094fcd7542f"
+					(reference "D201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 215.9 20.32 0)
 		(unit 1)
@@ -8304,7 +8615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 130.5052 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9067,7 +9378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 131.7752 24.13 0)
 			(hide yes)
 			(show_name no)
