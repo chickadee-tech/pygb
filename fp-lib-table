@@ -6,7 +6,6 @@
 	(lib (name "keystone") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/footprints/keystone.pretty") (options "") (descr ""))
 	(lib (name "SJ-3523-SMT-TR") (type "Legacy") (uri "${KIPRJMOD}/libs/SJ-3523-SMT-TR.mod") (options "") (descr "") (disabled))
 	(lib (name "cui-audio") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/footprints/cui-audio.pretty") (options "") (descr ""))
-	(lib (name "adafruit") (type "KiCad") (uri "${KIPRJMOD}/kicad-libs/footprints/adafruit.pretty") (options "") (descr ""))
 	(lib (name "MCU_RaspberryPi_and_Boards") (type "KiCad") (uri "${KIPRJMOD}/RP_Silicon_KiCad/KiCadLibraries/MCU_RaspberryPi_and_Boards.pretty") (options "") (descr ""))
 	(lib (name "Adafruit") (type "KiCad") (uri "${KIPRJMOD}/Adafruit.pretty") (options "") (descr ""))
 	(lib (name "RP2350_80QFN_minimal") (type "KiCad") (uri "${KIPRJMOD}/RP2350_80QFN_minimal.pretty") (options "") (descr ""))

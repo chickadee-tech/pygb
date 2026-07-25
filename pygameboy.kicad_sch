@@ -5,6 +5,372 @@
 	(uuid "63efa618-1458-4f61-941c-03fd363e3bea")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Micro_SD_Card"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -16.51 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Micro_SD_Card"
+				(at 16.51 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 29.21 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Micro SD Card Socket"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector SD microsd"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "microSD*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_0_1"
+				(polyline
+					(pts
+						(xy -8.89 -11.43) (xy -8.89 8.89) (xy -1.27 8.89) (xy 2.54 12.7) (xy 3.81 12.7) (xy 3.81 11.43)
+						(xy 6.35 11.43) (xy 7.62 12.7) (xy 20.32 12.7) (xy 20.32 -11.43) (xy -8.89 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 8.255)
+					(end -5.08 6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 5.715)
+					(end -5.08 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 3.175)
+					(end -5.08 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 0.635)
+					(end -5.08 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.905)
+					(end -5.08 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -4.445)
+					(end -5.08 -5.715)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -6.985)
+					(end -5.08 -8.255)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -9.525)
+					(end -5.08 -10.795)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 12.7) (xy 16.51 13.97) (xy -19.05 13.97) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_1_1"
+				(pin bidirectional line
+					(at -22.86 7.62 0)
+					(length 3.81)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 5.08 0)
+					(length 3.81)
+					(name "DAT3/CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 2.54 0)
+					(length 3.81)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 0 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -2.54 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -5.08 0)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -7.62 0)
+					(length 3.81)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -10.16 0)
+					(length 3.81)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -15.24 180)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -5989,6 +6355,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "SPI0TX"
+		(exclude_from_sim no)
+		(at 215.392 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "238ec58e-f836-4490-ad22-a2acfe85469d")
+	)
+	(text "R2 is S on TRS cables!"
+		(exclude_from_sim no)
+		(at 244.856 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f026571-5d2f-4ee1-85bd-7110e67ecaf8")
+	)
 	(text "TODO: Maybe need opamp\nbuffer for sound."
 		(exclude_from_sim no)
 		(at 159.004 157.226 0)
@@ -5998,6 +6384,26 @@
 			)
 		)
 		(uuid "3e7979ff-5868-47dc-9573-630c81936dfb")
+	)
+	(text "SPI0RX"
+		(exclude_from_sim no)
+		(at 215.392 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4711859a-24b6-4d26-8afa-8e818f0a3d2b")
+	)
+	(text "SPI0CS"
+		(exclude_from_sim no)
+		(at 213.868 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54f7b175-57ef-4304-b006-f3ef8a03a5fd")
 	)
 	(text "Thanks to @todbot for this circuit."
 		(exclude_from_sim no)
@@ -6018,6 +6424,16 @@
 			)
 		)
 		(uuid "78cb23fe-49b4-45fa-92d0-7b625d037166")
+	)
+	(text "SPI0SCK"
+		(exclude_from_sim no)
+		(at 209.55 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "83e61929-6874-4f89-83f2-d7c7d0512b89")
 	)
 	(text "TODO: Give space around everything."
 		(exclude_from_sim no)
@@ -6058,12 +6474,6 @@
 		(uuid "11511072-a1aa-4cc5-b977-ba795bac7746")
 	)
 	(junction
-		(at 238.76 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18f8fd26-5e50-4258-b2ba-f3df7ba855a7")
-	)
-	(junction
 		(at 100.33 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6094,16 +6504,10 @@
 		(uuid "4b3a22cd-1589-4bfa-9e6d-5cc927cfd161")
 	)
 	(junction
-		(at 31.75 100.33)
+		(at 237.49 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "54d4e9c0-91a9-49b6-9371-1584620331f6")
-	)
-	(junction
-		(at 248.92 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a4c1a05-21ea-4c1c-948f-c7a66af8fe22")
+		(uuid "560e0d2d-7d50-40f2-96e9-7c8cc32d7065")
 	)
 	(junction
 		(at 107.95 35.56)
@@ -6128,6 +6532,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9938bd97-db69-4644-9733-0e4a8abbde20")
+	)
+	(junction
+		(at 248.92 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0535884-bf75-4695-92d3-7763abb44a5d")
 	)
 	(junction
 		(at 271.145 88.9)
@@ -6172,22 +6582,10 @@
 		(uuid "ea63181c-93f8-4b58-b035-2466a939b16a")
 	)
 	(junction
-		(at 38.1 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb303aeb-9d79-4c87-8932-c91f761191e9")
-	)
-	(junction
 		(at 245.11 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eea5013e-acbe-4aee-9934-30c961a512de")
-	)
-	(junction
-		(at 237.49 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3f70286-12cf-4066-8272-33931ad42c1b")
 	)
 	(junction
 		(at 144.78 35.56)
@@ -6196,13 +6594,19 @@
 		(uuid "fcfba1e3-b0a4-40bd-80bf-139a8f80d961")
 	)
 	(junction
+		(at 212.09 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feda8e46-d37e-45cc-a8c9-5dada35c4e85")
+	)
+	(junction
 		(at 163.83 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffabb76c-dbf1-451b-82dd-c17ebf074047")
 	)
 	(no_connect
-		(at 209.55 148.59)
+		(at 125.73 138.43)
 		(uuid "0053788d-66bd-408a-bfef-87719e3597b4")
 	)
 	(no_connect
@@ -6212,16 +6616,6 @@
 	(no_connect
 		(at 247.65 63.5)
 		(uuid "d21b0e04-c6c4-4ede-bfd3-7f84c8c0e35a")
-	)
-	(wire
-		(pts
-			(xy 238.76 99.06) (xy 238.76 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "000d0e23-3bbe-43c1-ab49-9ea78fb72be7")
 	)
 	(wire
 		(pts
@@ -6265,16 +6659,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 100.33) (xy 38.1 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03063af9-41e7-42e4-b231-599ec6a3776d")
-	)
-	(wire
-		(pts
 			(xy 113.03 82.55) (xy 116.84 82.55)
 		)
 		(stroke
@@ -6292,16 +6676,6 @@
 			(type default)
 		)
 		(uuid "05c48350-1093-4f9b-95c3-a72905bf8a6d")
-	)
-	(wire
-		(pts
-			(xy 237.49 120.65) (xy 237.49 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "062b5aed-887b-4034-a2ad-254ff59bdd30")
 	)
 	(wire
 		(pts
@@ -6435,7 +6809,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 123.19) (xy 250.19 123.19)
+			(xy 242.57 120.65) (xy 250.19 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6642,6 +7016,16 @@
 			(type default)
 		)
 		(uuid "3bfc73c7-2476-49a0-bdd5-23ac37ec20c4")
+	)
+	(wire
+		(pts
+			(xy 212.09 139.7) (xy 237.49 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c030c91-d4b2-44c9-90d8-1659aa88bff4")
 	)
 	(wire
 		(pts
@@ -6905,16 +7289,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 101.6) (xy 248.92 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60f4ed9c-b13b-4f7c-9393-d08c1c6f6571")
-	)
-	(wire
-		(pts
 			(xy 234.95 38.1) (xy 234.95 40.64)
 		)
 		(stroke
@@ -7095,23 +7469,13 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 127) (xy 270.51 128.27)
+			(xy 78.74 135.89) (xy 78.74 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ea5cb20-555b-4aab-9aa4-7b6977ba47a7")
-	)
-	(wire
-		(pts
-			(xy 198.12 101.6) (xy 200.66 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f114b8c-4142-47ae-b8e6-19e04f1493e3")
 	)
 	(wire
 		(pts
@@ -7132,6 +7496,16 @@
 			(type default)
 		)
 		(uuid "80b0693b-157e-4f9f-9b04-e39e32f18ceb")
+	)
+	(wire
+		(pts
+			(xy 237.49 123.19) (xy 237.49 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ad8567-3269-4742-8a18-5a66b1cad768")
 	)
 	(wire
 		(pts
@@ -7342,6 +7716,16 @@
 			(type default)
 		)
 		(uuid "9c696425-98a3-4c90-844b-5b0c34e189d0")
+	)
+	(wire
+		(pts
+			(xy 236.22 101.6) (xy 236.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de975b0-aa20-4a5f-8598-0375d3a434d1")
 	)
 	(wire
 		(pts
@@ -7585,6 +7969,26 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 101.6) (xy 248.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c8562f-9416-4019-8cdf-9f74f8e5453c")
+	)
+	(wire
+		(pts
+			(xy 208.28 139.7) (xy 212.09 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa95957-1a62-435e-a4c1-e5ff87e816e6")
+	)
+	(wire
+		(pts
 			(xy 236.22 120.65) (xy 237.49 120.65)
 		)
 		(stroke
@@ -7815,23 +8219,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 99.06) (xy 238.76 99.06)
+			(xy 236.22 99.06) (xy 245.11 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e11d4329-ff4e-4d72-a741-8e011138212e")
-	)
-	(wire
-		(pts
-			(xy 236.22 101.6) (xy 238.76 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5b8caaf-0360-4702-95b7-9c2a2df7bfdf")
 	)
 	(wire
 		(pts
@@ -7945,6 +8339,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 144.78) (xy 237.49 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56e783b-c92c-45de-b0e9-60f7a7b92873")
+	)
+	(wire
+		(pts
 			(xy 25.4 26.67) (xy 26.67 26.67)
 		)
 		(stroke
@@ -7952,6 +8356,16 @@
 			(type default)
 		)
 		(uuid "f66303a8-46ac-4dcc-ab09-7389d3bed10a")
+	)
+	(wire
+		(pts
+			(xy 245.11 99.06) (xy 245.11 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72591bd-0bb9-48c5-b050-d0473c0cb45d")
 	)
 	(wire
 		(pts
@@ -8004,7 +8418,7 @@
 		(uuid "004b08fd-2a2a-42e5-bcd5-d267732ffcb2")
 	)
 	(label "CLK"
-		(at 156.21 60.96 90)
+		(at 153.67 60.96 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8022,6 +8436,16 @@
 			(justify left bottom)
 		)
 		(uuid "039c83f8-8a54-4989-b6ae-27dc25dc9731")
+	)
+	(label "SD_DAT0_MISO"
+		(at 237.49 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04f33924-5de4-4898-adf8-2b4025760a32")
 	)
 	(label "A3"
 		(at 25.4 134.62 180)
@@ -8183,6 +8607,16 @@
 		)
 		(uuid "187cbf76-c462-4ef2-bc1c-e9eaa5323fad")
 	)
+	(label "SD_CLK"
+		(at 237.49 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a51bb5a-17e2-4fb8-9bd0-ac85f6a98396")
+	)
 	(label "AUD"
 		(at 38.1 97.79 0)
 		(effects
@@ -8284,7 +8718,7 @@
 		(uuid "27eab159-0242-4a70-b779-3ba7bd04efd6")
 	)
 	(label "WR"
-		(at 153.67 60.96 90)
+		(at 156.21 60.96 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8353,6 +8787,16 @@
 		)
 		(uuid "2cc748a6-9495-4dac-9a6e-c56e678a71c5")
 	)
+	(label "SD_DAT0_MISO"
+		(at 198.12 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e10a171-777c-4b79-9ea3-8fa66c1439e2")
+	)
 	(label "A11"
 		(at 25.4 154.94 180)
 		(effects
@@ -8383,6 +8827,16 @@
 		)
 		(uuid "372e0bf1-3faa-446b-8c52-ca13fcc00f54")
 	)
+	(label "SD_DAT3_CS"
+		(at 198.12 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a0c09e1-706f-40a4-ae0c-ae6102bfd80c")
+	)
 	(label "CS"
 		(at 146.05 76.2 180)
 		(effects
@@ -8404,7 +8858,7 @@
 		(uuid "417f7292-31c5-4ced-92be-daef912eccac")
 	)
 	(label "NEOPIXEL"
-		(at 194.31 148.59 180)
+		(at 110.49 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8462,6 +8916,16 @@
 			(justify left bottom)
 		)
 		(uuid "4c7b082d-88c1-4171-9c43-ab837b870e7a")
+	)
+	(label "SD_DAT1"
+		(at 198.12 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d061103-1d96-49a2-b757-40f19dba7d17")
 	)
 	(label "MIDI_IN"
 		(at 158.75 60.96 90)
@@ -8553,6 +9017,16 @@
 		)
 		(uuid "55ed0b17-da30-45cb-ba10-6680264cf75b")
 	)
+	(label "SD_DAT1"
+		(at 237.49 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ad93f80-0c07-4708-a412-444e05522039")
+	)
 	(label "WR"
 		(at 38.1 26.67 0)
 		(effects
@@ -8584,7 +9058,7 @@
 		(uuid "5ecb7e94-0521-4de4-ba5d-66bfc6438fee")
 	)
 	(label "MIDI_OUT"
-		(at 250.19 123.19 0)
+		(at 250.19 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8642,6 +9116,16 @@
 			(justify left bottom)
 		)
 		(uuid "67e66ca2-482a-4624-9c91-3154cd4ea89a")
+	)
+	(label "SD_DAT3_CS"
+		(at 198.12 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68afabd5-ecf8-4556-a51f-218385dacf50")
 	)
 	(label "A14"
 		(at 38.1 69.85 0)
@@ -8702,6 +9186,16 @@
 			(justify right bottom)
 		)
 		(uuid "732fe6f6-d329-4b8b-8fba-0c1900464e02")
+	)
+	(label "SD_CMD_MOSI"
+		(at 198.12 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73a4c33d-71a3-4ef7-a191-d2827a06325c")
 	)
 	(label "3V_D4"
 		(at 175.26 118.11 270)
@@ -8874,12 +9368,12 @@
 		(uuid "92e8ae42-a856-49fe-b092-b59a700d2779")
 	)
 	(label "PWM_AUDIO"
-		(at 200.66 101.6 0)
+		(at 187.96 115.57 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "95fde675-5403-4709-a5f8-8f11f976b252")
 	)
@@ -8914,7 +9408,7 @@
 		(uuid "98783071-8c36-463d-8df0-7dc888ba2d03")
 	)
 	(label "LED"
-		(at 270.51 119.38 90)
+		(at 78.74 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8922,6 +9416,16 @@
 			(justify left bottom)
 		)
 		(uuid "994ec568-ea9b-4492-ab19-23c5d12fb3e2")
+	)
+	(label "SD_CLK"
+		(at 198.12 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a835725-1dea-4f83-ab2d-1c873a167b01")
 	)
 	(label "SWD"
 		(at 222.25 67.31 180)
@@ -8942,6 +9446,16 @@
 			(justify right bottom)
 		)
 		(uuid "9c14d84f-084d-404f-875b-3f1b2ffca4e4")
+	)
+	(label "SD_CMD_MOSI"
+		(at 237.49 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9cd21a9f-410b-4999-bdc2-7dab75ac3c2e")
 	)
 	(label "A9"
 		(at 38.1 57.15 0)
@@ -9032,6 +9546,16 @@
 			(justify right bottom)
 		)
 		(uuid "a7b5e8aa-c6c7-44f4-aeda-3b7f383ed4b2")
+	)
+	(label "SD_DAT3_CS"
+		(at 208.28 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7fa0463-9c07-4a36-9ba0-6c542e894064")
 	)
 	(label "D1"
 		(at 87.63 90.17 180)
@@ -9393,6 +9917,16 @@
 		)
 		(uuid "e976dc64-5ce6-4961-b1d4-0fc955b25464")
 	)
+	(label "SD_DAT2"
+		(at 237.49 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efd5ab87-d2b7-4409-93b5-304dbaf3616f")
+	)
 	(label "RP_GB_RESET"
 		(at 185.42 118.11 270)
 		(effects
@@ -9422,6 +9956,16 @@
 			(justify right bottom)
 		)
 		(uuid "f99deea1-563a-4784-8c0f-eed655bb1a83")
+	)
+	(label "SD_DAT2"
+		(at 198.12 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa96fda0-1b10-40f0-815a-da463312c5b7")
 	)
 	(label "D3"
 		(at 87.63 95.25 180)
@@ -11967,7 +12511,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 270.51 123.19 90)
+		(at 78.74 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11977,7 +12521,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ae9bb74")
 		(property "Reference" "D3"
-			(at 273.4818 122.2248 90)
+			(at 81.7118 131.1148 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11988,7 +12532,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 273.4818 124.5362 90)
+			(at 81.7118 133.4262 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11999,7 +12543,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 270.51 123.19 0)
+			(at 78.74 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12010,7 +12554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 123.19 0)
+			(at 78.74 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12021,7 +12565,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 123.19 0)
+			(at 78.74 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12048,7 +12592,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 270.51 130.81 0)
+		(at 78.74 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12058,7 +12602,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ae9bce4")
 		(property "Reference" "R4"
-			(at 272.0086 129.6416 0)
+			(at 80.2386 138.5316 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12069,7 +12613,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 272.0086 131.953 0)
+			(at 80.2386 140.843 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12080,7 +12624,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 270.51 130.81 0)
+			(at 78.74 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12091,7 +12635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 130.81 0)
+			(at 78.74 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12102,7 +12646,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 130.81 0)
+			(at 78.74 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12357,2502 +12901,6 @@
 			(project "pygameboy"
 				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
 					(reference "#PWR0149")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 21.59 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc0e8")
-		(property "Reference" "TP1"
-			(at 42.8752 20.4216 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 22.733 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c72f24d-9158-41fd-ba0d-a1b8584a5e61")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 24.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc182")
-		(property "Reference" "TP2"
-			(at 42.8752 22.9616 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 25.273 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea323311-27f2-457e-9734-9dfde4167cb6")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 26.67 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc1da")
-		(property "Reference" "TP3"
-			(at 42.8752 25.5016 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 27.813 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1e3f417-a758-4379-aa4a-d8679ea198e4")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 29.21 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc236")
-		(property "Reference" "TP4"
-			(at 42.8752 28.0416 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 30.353 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d66c8e11-00fa-4fea-b6a3-4ed0ff4e55a5")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 31.75 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc292")
-		(property "Reference" "TP5"
-			(at 42.8752 30.5816 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 32.893 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8becb5f1-d19b-4dda-9d7c-06254ee57515")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 34.29 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc2f2")
-		(property "Reference" "TP6"
-			(at 42.8752 33.1216 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 35.433 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c55ae808-afbc-43ae-a5a1-8fd08a963dd4")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 36.83 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc352")
-		(property "Reference" "TP7"
-			(at 42.8752 35.6616 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 37.973 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee9309c3-0790-478e-8205-ae971348bed9")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 39.37 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc3b4")
-		(property "Reference" "TP8"
-			(at 42.8752 38.2016 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 40.513 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc56b255-debd-47c7-a915-2e9e56d2d1bf")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 41.91 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc418")
-		(property "Reference" "TP9"
-			(at 42.8752 40.7416 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 43.053 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed9fdf20-2ed1-4293-b536-85d5ff99a271")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 44.45 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc47e")
-		(property "Reference" "TP10"
-			(at 42.8752 43.2816 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 45.593 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "164988a2-d609-4d79-aa06-8272336c4e7a")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 46.99 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc4e6")
-		(property "Reference" "TP11"
-			(at 42.8752 45.8216 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 48.133 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58243f10-5243-49fb-8bdc-a78b27f31fba")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 49.53 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc550")
-		(property "Reference" "TP12"
-			(at 42.8752 48.3616 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 50.673 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb135e36-1a9a-4560-93bb-b2b80c18acce")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 52.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc5c0")
-		(property "Reference" "TP13"
-			(at 42.8752 50.9016 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 53.213 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "293de7ee-eb2c-4663-ae89-152f54e4c8ba")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 54.61 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc630")
-		(property "Reference" "TP14"
-			(at 42.8752 53.4416 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 55.753 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6bdb690d-9d12-4065-9ad5-f8b5e871a8ce")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 57.15 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc6a2")
-		(property "Reference" "TP15"
-			(at 42.8752 55.9816 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 58.293 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7edb4c7e-7f0f-46ef-8bff-b03c23b632af")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 59.69 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc714")
-		(property "Reference" "TP16"
-			(at 42.8752 58.5216 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 60.833 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6be4a76-b8f4-45c8-be23-dc6343dfb116")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 62.23 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc78a")
-		(property "Reference" "TP17"
-			(at 42.8752 61.0616 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 63.373 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f7af676-4382-4f50-a5a9-b64658675dc1")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 64.77 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc802")
-		(property "Reference" "TP18"
-			(at 42.8752 63.6016 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 65.913 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b0b0d39-b2df-49ff-8f5c-feee86986194")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 67.31 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc87e")
-		(property "Reference" "TP19"
-			(at 42.8752 66.1416 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 68.453 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04a52109-8556-476e-ba1e-5ba897725f0a")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 69.85 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc8fa")
-		(property "Reference" "TP20"
-			(at 42.8752 68.6816 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 70.993 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b425aba0-8f89-418c-b298-9dd301a995e3")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 72.39 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dc9ac")
-		(property "Reference" "TP21"
-			(at 42.8752 71.2216 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 73.533 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fa38105-3a7b-49dc-b104-e67158ef7319")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 74.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dca32")
-		(property "Reference" "TP22"
-			(at 42.8752 73.7616 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 76.073 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c4a6061-6ce4-43d2-aa99-ec9968fa7da3")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 77.47 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dcab2")
-		(property "Reference" "TP23"
-			(at 42.8752 76.3016 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 78.613 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10c8be25-949c-44ad-8d36-77b3c8db185e")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 80.01 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dcb34")
-		(property "Reference" "TP24"
-			(at 42.8752 78.8416 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 81.153 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9e8ee7f-be7c-4aa5-b2a7-fd0e0fb0ad93")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 82.55 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dcbb9")
-		(property "Reference" "TP25"
-			(at 42.8752 81.3816 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 83.693 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e18289c4-ca88-4d73-8dec-fbe7a7f236e4")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 85.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dcc42")
-		(property "Reference" "TP26"
-			(at 42.8752 83.9216 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 86.233 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "56f26f89-672c-452e-bb67-b7096e29bf1b")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 87.63 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dccca")
-		(property "Reference" "TP27"
-			(at 42.8752 86.4616 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 88.773 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ee289d4-bb94-43d0-8b50-53d3e7b332ca")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 90.17 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dcd54")
-		(property "Reference" "TP28"
-			(at 42.8752 89.0016 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 91.313 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "015de1cf-9556-4f11-9e31-d010645cb437")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 92.71 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dcde0")
-		(property "Reference" "TP29"
-			(at 42.8752 91.5416 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 93.853 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d9c5c26d-d351-4bc7-a015-16131e84e486")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 95.25 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dce6e")
-		(property "Reference" "TP30"
-			(at 42.8752 94.0816 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 96.393 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86fd8ae1-30ce-4a70-bfd1-6e9b83c2b635")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 100.33 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dcf00")
-		(property "Reference" "TP32"
-			(at 42.8752 99.1616 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 101.473 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ccfbf84f-5085-409a-b56b-2b31d64e091f")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 97.79 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b1dcf97")
-		(property "Reference" "TP31"
-			(at 42.8752 96.6216 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test_Point"
-			(at 42.8752 98.933 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "gameboy:Test Point"
-			(at 38.1 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b97ed94-2a37-4244-a7f2-e2b39a690a83")
-		)
-		(instances
-			(project "pygameboy"
-				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
-					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -15204,7 +13252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 253.365 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15410,7 +13458,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 240.03 123.19 270)
+		(at 240.03 120.65 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15420,7 +13468,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c4844bb")
 		(property "Reference" "R7"
-			(at 249.555 125.095 90)
+			(at 249.555 122.555 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15430,7 +13478,7 @@
 			)
 		)
 		(property "Value" "51"
-			(at 243.205 125.095 90)
+			(at 243.205 122.555 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15439,8 +13487,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 240.03 123.19 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.03 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15451,7 +13499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 123.19 0)
+			(at 240.03 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15462,7 +13510,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 123.19 0)
+			(at 240.03 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15518,7 +13566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.03 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -15832,7 +13880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+		(property "Footprint" "Adafruit:TS-1185"
 			(at 222.885 19.685 0)
 			(hide yes)
 			(show_name no)
@@ -19412,6 +17460,83 @@
 		)
 	)
 	(symbol
+		(lib_id "pygameboy-rescue:GND-power")
+		(at 237.49 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1aead7de-73b6-4b76-b589-da361960909d")
+		(property "Reference" "#PWR0125"
+			(at 231.14 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.0958 149.987 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95c3fa10-db77-4a2e-a2fe-5ab0796ff299")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
 		(at 163.83 173.99 180)
@@ -20348,7 +18473,7 @@
 	)
 	(symbol
 		(lib_id "pygameboy-rescue:GND-power")
-		(at 217.17 158.75 0)
+		(at 133.35 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20358,7 +18483,7 @@
 		(dnp no)
 		(uuid "5dd71f36-d90c-4f6e-9bae-ce8f70ba0cbe")
 		(property "Reference" "#PWR0122"
-			(at 217.17 165.1 0)
+			(at 133.35 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20369,7 +18494,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.297 163.1442 0)
+			(at 133.477 152.9842 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20379,7 +18504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 158.75 0)
+			(at 133.35 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20390,7 +18515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 158.75 0)
+			(at 133.35 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20401,7 +18526,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 158.75 0)
+			(at 133.35 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20677,7 +18802,7 @@
 	)
 	(symbol
 		(lib_id "pygameboy-rescue:GND-power")
-		(at 270.51 133.35 0)
+		(at 78.74 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20687,7 +18812,7 @@
 		(dnp no)
 		(uuid "682d2605-373c-4985-8bea-ca047dba108a")
 		(property "Reference" "#PWR0110"
-			(at 270.51 139.7 0)
+			(at 78.74 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20698,7 +18823,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 270.637 137.7442 0)
+			(at 78.867 146.6342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20708,7 +18833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 133.35 0)
+			(at 78.74 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20719,7 +18844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 133.35 0)
+			(at 78.74 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20730,7 +18855,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 133.35 0)
+			(at 78.74 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20754,7 +18879,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 217.17 156.21 0)
+		(at 133.35 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20764,7 +18889,7 @@
 		(dnp no)
 		(uuid "6d9132c7-f0d8-4d60-bf70-26e5bde13cd7")
 		(property "Reference" "C107"
-			(at 219.5068 155.0416 0)
+			(at 135.6868 144.8816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20775,7 +18900,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 219.5068 157.353 0)
+			(at 135.6868 147.193 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20786,7 +18911,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 217.17 156.21 0)
+			(at 133.35 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20797,7 +18922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 156.21 0)
+			(at 133.35 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20808,7 +18933,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 156.21 0)
+			(at 133.35 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20835,7 +18960,7 @@
 	)
 	(symbol
 		(lib_id "pygameboy-rescue:+3.3V-power")
-		(at 217.17 153.67 0)
+		(at 133.35 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20845,7 +18970,7 @@
 		(dnp no)
 		(uuid "6df595d3-08e5-4dc7-91a2-e865907a70d2")
 		(property "Reference" "#PWR0123"
-			(at 217.17 157.48 0)
+			(at 133.35 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20856,7 +18981,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 216.662 149.098 0)
+			(at 132.842 138.938 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20866,7 +18991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 153.67 0)
+			(at 133.35 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20877,7 +19002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 153.67 0)
+			(at 133.35 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20888,7 +19013,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 153.67 0)
+			(at 133.35 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21087,6 +19212,83 @@
 		)
 	)
 	(symbol
+		(lib_id "pygameboy-rescue:+3.3V-power")
+		(at 212.09 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "71281c6b-2657-4684-8b69-7cfddbf90bc5")
+		(property "Reference" "#PWR0126"
+			(at 212.09 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 212.09 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69488f87-3525-4418-b73c-42952b2ac470")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 187.96 36.83 90)
 		(unit 1)
@@ -21118,7 +19320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 187.96 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -21669,6 +19871,83 @@
 		)
 	)
 	(symbol
+		(lib_id "pygameboy-rescue:GND-power")
+		(at 280.67 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a096eed5-9e0e-46a6-9025-68d1661dff49")
+		(property "Reference" "#PWR0124"
+			(at 280.67 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.797 164.4142 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c62cbb4-0e42-4dc9-b65f-582e711afea7")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 190.5 21.59 0)
 		(unit 1)
@@ -21699,7 +19978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+		(property "Footprint" "Adafruit:TS-1185"
 			(at 190.5 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -21749,7 +20028,7 @@
 	)
 	(symbol
 		(lib_id "pygameboy-rescue:GND-power")
-		(at 201.93 156.21 0)
+		(at 118.11 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21759,7 +20038,7 @@
 		(dnp no)
 		(uuid "a77a5ac1-9f52-404e-b3be-eecd4b33b988")
 		(property "Reference" "#PWR0121"
-			(at 201.93 162.56 0)
+			(at 118.11 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21770,7 +20049,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.057 160.6042 0)
+			(at 118.237 150.4442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21780,7 +20059,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 156.21 0)
+			(at 118.11 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21791,7 +20070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 156.21 0)
+			(at 118.11 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21802,7 +20081,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 156.21 0)
+			(at 118.11 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22147,7 +20426,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B-2020")
-		(at 201.93 148.59 0)
+		(at 118.11 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22158,7 +20437,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1fe7039-63ea-4460-acf5-b3d33b066ea9")
 		(property "Reference" "D101"
-			(at 215.9 142.1698 0)
+			(at 132.08 132.0098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22168,7 +20447,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 215.9 144.7098 0)
+			(at 132.08 134.5498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22178,7 +20457,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 203.2 156.21 0)
+			(at 119.38 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22190,7 +20469,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 204.47 158.115 0)
+			(at 120.65 147.955 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22202,7 +20481,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 201.93 148.59 0)
+			(at 118.11 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22437,6 +20716,164 @@
 			(project "pygameboy"
 				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 212.09 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1fd9476-7a32-4167-aa01-5e2abcde4c88")
+		(property "Reference" "R105"
+			(at 213.5886 135.9916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 213.5886 138.303 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 212.09 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78e96b77-f1d4-4622-90e1-7257d29ceabf")
+		)
+		(pin "2"
+			(uuid "0a0dd9a7-4f4a-4a70-aadc-229cb010f887")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pygameboy-rescue:+3.3V-power")
+		(at 224.79 144.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d291e23f-a2e9-4ee0-bd10-d51dddd7b1c9")
+		(property "Reference" "#PWR0127"
+			(at 228.6 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 220.98 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cdae8324-7da8-47b5-bf7b-7931a3d842c3")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -22706,6 +21143,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Micro_SD_Card")
+		(at 260.35 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e54c8c37-6bce-4116-b11f-42ed77ac1a95")
+		(property "Reference" "J103"
+			(at 260.985 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Micro_SD_Card"
+			(at 260.985 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Adafruit:TF-027-HXXX"
+			(at 289.56 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
+			(at 260.35 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Micro SD Card Socket"
+			(at 260.35 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "290590e9-8bd0-4fc4-8fa3-2cd694b62708")
+		)
+		(pin "6"
+			(uuid "6ba15308-d2ab-40bc-915e-de104a75d409")
+		)
+		(pin "8"
+			(uuid "7cf7a0d7-f465-4d97-a06f-96c6a7af581b")
+		)
+		(pin "5"
+			(uuid "a76e9dfe-5235-49de-86ba-fadbfa01dbc0")
+		)
+		(pin "7"
+			(uuid "eb90b946-5ec1-4823-92a7-23d5693ac892")
+		)
+		(pin "SH"
+			(uuid "73bfb505-ede4-4d23-b24b-e1b62be8dbf2")
+		)
+		(pin "3"
+			(uuid "6241ce41-9595-4752-ad7b-788091eeb56e")
+		)
+		(pin "2"
+			(uuid "097e38c5-215e-4d72-9bb7-c8437fc64c21")
+		)
+		(pin "1"
+			(uuid "45505761-ee50-427e-a68d-f5caecd65379")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "J103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 100.33 40.64 180)
 		(unit 1)
@@ -22866,7 +21404,7 @@
 	)
 	(symbol
 		(lib_id "pygameboy-rescue:+3.3V-power")
-		(at 201.93 140.97 0)
+		(at 118.11 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22876,7 +21414,7 @@
 		(dnp no)
 		(uuid "fe74b169-c3ea-4a6d-b429-4ddf61de5fcd")
 		(property "Reference" "#PWR0120"
-			(at 201.93 144.78 0)
+			(at 118.11 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22887,7 +21425,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 201.422 136.398 0)
+			(at 117.602 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22897,7 +21435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 140.97 0)
+			(at 118.11 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22908,7 +21446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 140.97 0)
+			(at 118.11 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22919,7 +21457,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 140.97 0)
+			(at 118.11 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22977,16 +21515,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "GPIO0" input
-			(at 161.29 64.77 90)
-			(uuid "dede6057-dd79-44f0-b334-f94c4253ec9d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "GPIO1" input
