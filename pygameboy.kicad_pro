@@ -94,6 +94,10 @@
           ""
         ],
         [
+          "lib_footprint_mismatch|120669014|60516427|e77b768a-3527-4a9e-9b65-fe4c97891702|00000000-0000-0000-0000-000000000000",
+          "Put dot closer to where it actually is"
+        ],
+        [
           "lib_footprint_mismatch|124671372|68633810|157dec99-bfd3-4173-b458-3c657edf27ab|00000000-0000-0000-0000-000000000000",
           "Drills bigger for JLC"
         ],

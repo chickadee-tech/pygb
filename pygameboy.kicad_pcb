@@ -212,7 +212,7 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" smd rect
 			(at -22 -2.54)
@@ -811,6 +811,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C318893"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a109e908-2bd9-4dbd-8676-3ba2b06af562")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005c4bd05e")
 		(sheetname "/")
 		(sheetfile "pygameboy.kicad_sch")
@@ -1210,6 +1221,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C853318"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b783f734-12d4-4d5c-8756-7e17ae40f769")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005c4844bb")
 		(sheetname "/")
@@ -1421,6 +1443,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C853318"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e972746d-723e-4fb9-abd9-ed57214f57bf")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1820,6 +1853,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917006"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd629383-c8ef-4978-ba3b-8ed7cfffe6da")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3964,7 +4008,7 @@
 				(pins "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -4990,6 +5034,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8e0b4670-23d4-497f-832c-105d0b9a3156")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005ae8b87d")
 		(sheetname "/")
@@ -5220,6 +5275,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f4e325ce-4bda-4974-a80e-52527b0a69c7")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -7550,6 +7616,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5360304"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3e108ddf-8c36-446f-9899-996d9c1b2aac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*5.23x5.23mm*P1.27mm*")
 		(path "/e20e6721-8f13-4e3b-9d71-8094fcd7542f/f53080f1-521e-4835-b647-5c4f4a59829d")
 		(sheetname "/RP2350 Core/")
@@ -7963,6 +8040,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C160390"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "36309c36-e080-48fa-b42d-932f5a6cb4d2")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -8544,6 +8632,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "122fe400-226d-4cda-825d-5f2ba1801065")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -11803,6 +11902,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C20197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d1b268be-cf58-4c2e-aa60-390499484315")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
 		(path "/58ebcb4a-6dc0-4870-b761-98d9850d5544")
 		(sheetname "/")
@@ -12166,6 +12276,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4095dcac-f553-413b-8904-a855217dcf1c")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12698,6 +12819,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0f19c7a3-0333-4139-b3e8-08c7af0e0c28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e2d0ef14-9c6e-425e-905f-4c070a0883a4")
 		(sheetname "/")
@@ -12908,6 +13040,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C318893"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7a3bb27d-7c23-49ee-804d-e7e0ce88bfd6")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -14119,6 +14262,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1779"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8924eb8f-db1d-49a8-9a3d-5b673ae806be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e20e6721-8f13-4e3b-9d71-8094fcd7542f/49804f0b-88e0-4255-82cf-7a091749a988")
 		(sheetname "/RP2350 Core/")
@@ -14374,6 +14528,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C20197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d64d2edd-646f-41bc-a922-d311792c0011")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -15009,6 +15174,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1779"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "64443a79-68fa-4fb9-ba25-368053179692")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -16062,6 +16238,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C20197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c8beba0d-7932-4429-a00b-ccbd7b40b1bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
 		(path "/56c21b66-b9f2-4e16-bbb3-f8c4e6c89e9c")
 		(sheetname "/")
@@ -16617,6 +16804,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C965555"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4775755c-5df4-4f88-a872-894013c6996a")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -17223,6 +17421,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917006"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6c44d495-0c7c-4166-9151-33f2bf2bf8cb")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -17846,6 +18055,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "edcde349-dc12-47cf-a9fd-4eed2c9c9588")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7f4c6070-91ff-4a80-b958-88c64d01fba7")
 		(sheetname "/")
@@ -18320,6 +18540,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C20197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "02d5aa3f-25f4-4e9f-b6d6-a8510f15f653")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21217,6 +21448,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "057cb69d-4d01-4648-b77f-07397399e19d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6d9132c7-f0d8-4d60-bf70-26e5bde13cd7")
 		(sheetname "/")
@@ -21490,6 +21732,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "27a409d0-f772-4d1e-b6a8-d5334f409e99")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22006,6 +22259,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f9383e8d-1827-4ea8-a618-9d14c18766d1")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -23256,7 +23520,7 @@
 				(pins "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -23700,6 +23964,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C20197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "857795d9-bbfd-45c1-8d7b-f11ca6e6dd68")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24269,6 +24544,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5310495"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1f0a250b-acdf-422b-8958-83d7f5402427")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "microSD*")
 		(path "/e54c8c37-6bce-4116-b11f-42ed77ac1a95")
 		(sheetname "/")
@@ -24637,6 +24923,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cb841834-5153-4908-b22a-4e586375b35b")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25429,6 +25726,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C20197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e384774e-af13-4370-ae04-aa0d0c2f5ba3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
 		(path "/8e740a61-81db-4409-add1-36f465c3ecc4")
 		(sheetname "/")
@@ -25770,6 +26078,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C20197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "04a7b068-4890-48e3-8ef3-04243ae9007e")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26385,17 +26704,11 @@
 		(path "/e20e6721-8f13-4e3b-9d71-8094fcd7542f/4f70ee66-41ca-4ae7-b93c-70a7d8aa391d")
 		(sheetname "/RP2350 Core/")
 		(sheetfile "rp2350.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
-			(center -0.9 -1.3)
-			(end -0.758579 -1.3)
+			(center -1.56 0.78)
+			(end -1.418579 0.78)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -27614,6 +27927,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C160389"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0aed1dfc-edfc-4b2c-bfd4-eb4c897f1302")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/d65adbd6-f32e-4d86-a8b9-12d59432375e")
 		(sheetname "/")
@@ -28358,6 +28682,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -28467,6 +28792,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -28576,6 +28902,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -28685,6 +29012,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -28794,6 +29122,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -28903,6 +29232,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -29012,6 +29342,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -29121,6 +29452,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -29230,6 +29562,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -29339,6 +29672,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -29448,6 +29782,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -29557,6 +29892,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -29666,6 +30002,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -29775,6 +30112,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -29884,6 +30222,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -29993,6 +30332,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -30102,6 +30442,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -30211,6 +30552,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -30320,6 +30662,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -30429,6 +30772,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -30538,6 +30882,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -30647,6 +30992,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -30756,6 +31102,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -30865,6 +31212,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -30974,6 +31322,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31083,6 +31432,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31192,6 +31542,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31301,6 +31652,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31410,6 +31762,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31519,6 +31872,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31628,6 +31982,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31737,6 +32092,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31834,6 +32190,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "37f22689-3ea7-47fa-aca3-eaf18b6bf9dc")
+	)
+	(gr_circle
+		(center 109.31 57.35)
+		(end 109.49 57.54)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3f641119-917b-4750-829e-1cb86fb13ae3")
 	)
 	(gr_line
 		(start 149.3 42.5)
