@@ -1436,7 +1436,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1456,14 +1456,15 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x03_MountingPin"
+				(at 1.27 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1488,7 +1489,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1510,7 +1511,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1521,7 +1522,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x03_1_1"
+			(symbol "Conn_01x03_MountingPin_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -3.81)
@@ -1564,6 +1565,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -1620,10 +1641,28 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1643,14 +1682,15 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x04_MountingPin"
+				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1675,7 +1715,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1697,7 +1737,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1708,7 +1748,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x04_MountingPin_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -6.35)
@@ -1762,6 +1802,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -1829,6 +1889,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7209,16 +7287,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 60.96) (xy 161.29 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "554e6b31-94ac-431e-81ed-5d943f34e9ad")
-	)
-	(wire
-		(pts
 			(xy 36.83 31.75) (xy 38.1 31.75)
 		)
 		(stroke
@@ -9208,7 +9276,7 @@
 		(uuid "745f3da0-0d8e-43b6-9ee1-b4c647a96a2e")
 	)
 	(label "SCL"
-		(at 193.04 41.91 270)
+		(at 182.88 41.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9288,7 +9356,7 @@
 		(uuid "84bd5b11-4d6e-4ba8-a4f8-c61a9afa3b71")
 	)
 	(label "DEBUG_RX"
-		(at 227.33 74.93 180)
+		(at 217.17 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9468,7 +9536,7 @@
 		(uuid "9ed33b2d-0c81-46b4-a646-c003dff04808")
 	)
 	(label "MIDI_OUT"
-		(at 161.29 60.96 90)
+		(at 198.12 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9628,7 +9696,7 @@
 		(uuid "b5ae741d-17bc-4684-9894-16cfba1a3099")
 	)
 	(label "DEBUG_TX"
-		(at 227.33 80.01 180)
+		(at 217.17 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9668,7 +9736,7 @@
 		(uuid "b7fad2c0-c331-41b5-86fc-a35bfc0d63a7")
 	)
 	(label "SDA"
-		(at 190.5 41.91 270)
+		(at 180.34 41.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9708,7 +9776,7 @@
 		(uuid "badf6f2a-70d7-4e34-93fd-65da0ce8d536")
 	)
 	(label "NEOPIXEL"
-		(at 198.12 86.36 0)
+		(at 198.12 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17150,7 +17218,7 @@
 	)
 	(symbol
 		(lib_id "pygameboy-rescue:GND-power")
-		(at 227.33 77.47 270)
+		(at 217.17 80.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17160,7 +17228,7 @@
 		(dnp no)
 		(uuid "0f327ec5-724e-4f04-9c83-1ce94b68755a")
 		(property "Reference" "#PWR0107"
-			(at 220.98 77.47 0)
+			(at 210.82 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17171,7 +17239,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.504 76.962 90)
+			(at 212.344 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17181,7 +17249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 77.47 0)
+			(at 217.17 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17192,7 +17260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 77.47 0)
+			(at 217.17 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17203,7 +17271,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 77.47 0)
+			(at 217.17 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17614,6 +17682,83 @@
 			(project "pygameboy"
 				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
 					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pygameboy-rescue:GND-power")
+		(at 222.25 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1dfd08e1-48a0-4295-89ad-ce16a04fdf6e")
+		(property "Reference" "#PWR0139"
+			(at 222.25 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 221.742 92.456 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10002a1e-5bc4-4f47-a775-c3110c1eea5f")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -18396,7 +18541,7 @@
 	)
 	(symbol
 		(lib_id "pygameboy-rescue:+3.3V-power")
-		(at 187.96 41.91 180)
+		(at 177.8 41.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18406,7 +18551,7 @@
 		(dnp no)
 		(uuid "5d80003b-1f0e-4f4f-b3c8-01f478be7f4f")
 		(property "Reference" "#PWR0101"
-			(at 187.96 38.1 0)
+			(at 177.8 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18417,7 +18562,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 187.579 46.3042 0)
+			(at 177.419 46.3042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18427,7 +18572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 41.91 0)
+			(at 177.8 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18438,7 +18583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 41.91 0)
+			(at 177.8 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18449,7 +18594,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 41.91 0)
+			(at 177.8 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18550,7 +18695,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 41.91 0)
+		(at 175.26 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18561,7 +18706,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ead2b5b-8777-46c3-a5ec-df3e9dd80c70")
 		(property "Reference" "#PWR0106"
-			(at 185.42 48.26 0)
+			(at 175.26 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18572,7 +18717,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 46.99 0)
+			(at 175.26 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18582,7 +18727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 41.91 0)
+			(at 175.26 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18593,7 +18738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 41.91 0)
+			(at 175.26 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18604,7 +18749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 41.91 0)
+			(at 175.26 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19289,8 +19434,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 187.96 36.83 90)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
+		(at 177.8 36.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19301,7 +19446,7 @@
 		(fields_autoplaced yes)
 		(uuid "71f86ad2-45c2-479b-9a5a-25b74eeeac99")
 		(property "Reference" "J14"
-			(at 189.23 30.48 90)
+			(at 179.4256 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19311,7 +19456,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 189.23 33.02 90)
+			(at 179.4256 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19321,7 +19466,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 187.96 36.83 0)
+			(at 177.8 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19332,7 +19477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 36.83 0)
+			(at 177.8 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19342,8 +19487,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 187.96 36.83 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 177.8 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19365,10 +19510,90 @@
 		(pin "4"
 			(uuid "6da4f57d-83a3-40c9-8637-ffda7e0160fe")
 		)
+		(pin "MP"
+			(uuid "240f886c-4290-44b7-820d-45b027cad762")
+		)
 		(instances
 			(project "pygameboy"
 				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pygameboy-rescue:GND-power")
+		(at 227.33 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "736832ab-a458-468c-89f3-f5577c2a37cf")
+		(property "Reference" "#PWR0138"
+			(at 227.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 74.168 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7443031d-5c60-435e-800a-24baf1b3afd7")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -20340,8 +20565,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 232.41 77.47 0)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 222.25 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20352,7 +20577,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb9e6f24-e20b-4998-bbd7-39c361bc9d0a")
 		(property "Reference" "J101"
-			(at 234.95 76.1999 0)
+			(at 224.79 79.0955 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20363,7 +20588,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 234.95 78.7399 0)
+			(at 224.79 81.6355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20374,7 +20599,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-			(at 232.41 77.47 0)
+			(at 222.25 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20385,7 +20610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 77.47 0)
+			(at 222.25 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20395,8 +20620,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 232.41 77.47 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 222.25 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20414,6 +20639,9 @@
 		)
 		(pin "2"
 			(uuid "0fe7eaf8-04bd-4c71-a754-62848b2e0f51")
+		)
+		(pin "MP"
+			(uuid "0e4b7ca6-4c56-4230-b5d4-4b2aadd5c330")
 		)
 		(instances
 			(project "pygameboy"
@@ -20977,7 +21205,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
 		(at 227.33 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -20989,7 +21217,7 @@
 		(fields_autoplaced yes)
 		(uuid "d65adbd6-f32e-4d86-a8b9-12d59432375e")
 		(property "Reference" "J102"
-			(at 229.87 63.4999 0)
+			(at 229.87 63.8555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21000,7 +21228,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 229.87 66.0399 0)
+			(at 229.87 66.3955 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21032,7 +21260,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 227.33 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -21051,6 +21279,9 @@
 		)
 		(pin "2"
 			(uuid "bebe2146-34ac-4401-8f42-ac8b7d8929b4")
+		)
+		(pin "MP"
+			(uuid "4f0ed6ec-7755-490d-8e25-9aa2d5a17b85")
 		)
 		(instances
 			(project "pygameboy"
@@ -21238,6 +21469,84 @@
 			(project "pygameboy"
 				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
 					(reference "J103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5f1a969-6b23-4bfb-941c-4100817c4b48")
+		(property "Reference" "#PWR0140"
+			(at 187.96 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14216ba0-e499-4016-b310-be18326a8601")
+		)
+		(instances
+			(project "pygameboy"
+				(path "/63efa618-1458-4f61-941c-03fd363e3bea"
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
